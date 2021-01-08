@@ -5,11 +5,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{% static 'web/img/png/favicon.png' %}" sizes="16x16 32x32" type="image/png">
 
     {% block stylesheets %}
-        <!-- Bootstrap 5 Beta -->
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-        <!-- End Bootstrap 5 Beta -->
+        <!-- Fonts Google -->
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap" rel="stylesheet">
+        <!-- End Fonts Google -->
+
+        <!-- Fonts Awesome 5.1 -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <!-- End Fonts Awesome 5.1 -->
+
+        <!-- UIKit CSS Framework -->
+            <link rel="stylesheet" href="{% static 'web/ui/css/uikit.min.css' %}">
+        <!-- End UIKit CSS Framework -->
+
+        <!-- AOS Javascript Lib -->
+            <link rel="stylesheet" href="{% static 'web/css/aos.css' %}">
+        <!-- End AOS Javascript Lib-->
 
     {% endblock stylesheets %}
 
@@ -25,13 +39,19 @@
 
     {% endblock body %}
 
-    <!-- Javascript Bootstrap 5 Beta -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <!-- End Javascript Bootstrap 5 Beta -->
+    <!-- Javascript UIKit Framework CSS -->
+        <script src="{% static 'web/ui/js/uikit.min.js' %}"></script>
+        <script src="{% static 'web/ui/js/uikit-icons.min.js' %}"></script>
+    <!-- End Javascript UIKit Framework CSS -->
+
+    <!-- AOS Javascript Lib -->
+        <script src="{% static 'web/js/aos.js' %}"></script>
+    <!-- END AOS Javascript Lib-->
 
     {% block extra-javascript %}
-
+    <script>
+        AOS.init();
+      </script>
     {% endblock extra-javascript %}
 
 </body>

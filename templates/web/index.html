@@ -5,12 +5,36 @@
     Home
 {% endblock title %}
 
+{% block extra-stylesheets %}
+    <link rel="stylesheet" href="{% static 'web/css/style.css' %}">
+{% endblock extra-stylesheets %}
+
 {% block body %}
-    <div class="container">
-        <div class="row">
-            <div class="col-md">
-                <h1>hello codeQue!!!</h1>
-            </div>
-        </div>
-    </div>
+
+    {% block navbar %}
+        {% include 'web/partials/navbar.html' %}
+    {% endblock navbar %}
+
+    {% block header %}
+        {% include 'web/partials/header.html' %}
+    {% endblock header %}
+
+    {% block slider %}
+        {% include 'web/partials/slider.html' %}
+    {% endblock slider %}
+    
+
+    {% block content %}
+        {% include 'web/partials/content.html' %}
+    {% endblock content %}
+
+    {% block content_blog %}
+        {% include 'web/partials/content_blog.html' %}
+    {% endblock content_blog %}
+
+    {% block footer %}
+        {% include 'web/partials/footer.html' %}
+    {% endblock footer %}
+   
+    
 {% endblock body %}
