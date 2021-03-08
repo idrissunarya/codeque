@@ -891,3 +891,1865 @@ Not Found: /favicon.ico
 [pid: 530|app: 0|req: 111/112] 127.0.0.1 () {50 vars in 872 bytes} [Fri Jan  8 22:51:46 2021] GET / => generated 35496 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
 [pid: 530|app: 0|req: 112/113] 127.0.0.1 () {50 vars in 872 bytes} [Fri Jan  8 22:52:25 2021] GET / => generated 35688 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
 [pid: 530|app: 0|req: 113/114] 127.0.0.1 () {50 vars in 872 bytes} [Fri Jan  8 22:53:05 2021] GET / => generated 35688 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jan  8 23:02:41 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MBP
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb431c0ce80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fb431c0ce80 pid: 523 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 523)
+spawned uWSGI worker 1 (pid: 4302, cores: 1)
+spawned uWSGI worker 2 (pid: 4303, cores: 1)
+spawned uWSGI worker 3 (pid: 4304, cores: 1)
+spawned uWSGI worker 4 (pid: 4305, cores: 1)
+spawned uWSGI worker 5 (pid: 4306, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Jan  9 10:39:33 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fdfaa5052d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fdfaa5052d0 pid: 1587 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1587)
+spawned uWSGI worker 1 (pid: 1591, cores: 1)
+spawned uWSGI worker 2 (pid: 1592, cores: 1)
+spawned uWSGI worker 3 (pid: 1593, cores: 1)
+spawned uWSGI worker 4 (pid: 1594, cores: 1)
+spawned uWSGI worker 5 (pid: 1595, cores: 1)
+[pid: 1595|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 863 bytes} [Sat Jan  9 10:39:53 2021] GET / => generated 35688 bytes in 293 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Sat Jan  9 11:04:06 2021] GET / => generated 35680 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Sat Jan  9 11:05:25 2021] GET / => generated 35680 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Sat Jan  9 11:05:37 2021] GET / => generated 35680 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 842 bytes} [Sat Jan  9 11:06:27 2021] GET / => generated 35680 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:07:02 2021] GET / => generated 35680 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:07:07 2021] GET / => generated 35680 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:09:06 2021] GET / => generated 35699 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:09:20 2021] GET / => generated 35699 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:09:27 2021] GET / => generated 35680 bytes in 169 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:09:40 2021] GET / => generated 35691 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:10:03 2021] GET / => generated 35701 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 11:10:13 2021] GET / => generated 35699 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 894 bytes} [Sat Jan  9 11:11:05 2021] GET / => generated 35699 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 894 bytes} [Sat Jan  9 11:12:09 2021] GET / => generated 35700 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 894 bytes} [Sat Jan  9 11:12:22 2021] GET / => generated 35700 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 17/17] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 12:30:23 2021] GET / => generated 35699 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 873 bytes} [Sat Jan  9 12:30:35 2021] GET / => generated 35702 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 19/19] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 11 06:57:31 2021] GET / => generated 35731 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 20/20] 127.0.0.1 () {48 vars in 842 bytes} [Mon Jan 11 06:57:45 2021] GET / => generated 35731 bytes in 72 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 21/21] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 11 06:58:20 2021] GET / => generated 35731 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 22/22] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 11 06:58:21 2021] GET / => generated 35731 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 23/23] 127.0.0.1 () {50 vars in 887 bytes} [Mon Jan 11 06:58:36 2021] GET / => generated 35731 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 24/24] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 06:58:44 2021] GET / => generated 35731 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 25/25] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 06:58:46 2021] GET / => generated 35731 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 26/26] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 06:59:17 2021] GET / => generated 35731 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 27/27] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 06:59:42 2021] GET / => generated 35789 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 28/28] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:00:07 2021] GET / => generated 35789 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 29/29] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:00:20 2021] GET / => generated 35789 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 30/30] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:00:40 2021] GET / => generated 35789 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 31/31] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:00:47 2021] GET / => generated 35789 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 32/32] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:01:17 2021] GET / => generated 35789 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 33/33] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:01:32 2021] GET / => generated 35789 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 34/34] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:01:39 2021] GET / => generated 35789 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 35/35] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:02:03 2021] GET / => generated 35789 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 36/36] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:02:15 2021] GET / => generated 35789 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 37/37] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:02:19 2021] GET / => generated 35789 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 38/38] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:02:29 2021] GET / => generated 35789 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 39/39] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:03:38 2021] GET / => generated 35813 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 40/40] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:03:41 2021] GET / => generated 35813 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 41/41] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:03:54 2021] GET / => generated 35813 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 42/42] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:04:49 2021] GET / => generated 35876 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 1595|app: 0|req: 43/43] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:06:17 2021] GET / => generated 35901 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 44/44] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:06:50 2021] GET / => generated 35979 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 45/45] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:07:14 2021] GET / => generated 35901 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 46/46] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:07:32 2021] GET / => generated 35979 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 47/47] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:07:50 2021] GET / => generated 36003 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 48/48] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:08:13 2021] GET / => generated 36003 bytes in 48 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 49/49] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:08:22 2021] GET / => generated 35980 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 50/50] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:08:43 2021] GET / => generated 35980 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 51/51] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:09:03 2021] GET / => generated 35980 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 52/52] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:09:13 2021] GET / => generated 35980 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 53/53] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:09:22 2021] GET / => generated 35980 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 54/54] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:09:38 2021] GET / => generated 35980 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 55/55] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:09:46 2021] GET / => generated 35980 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 56/56] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:09:56 2021] GET / => generated 35980 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 57/57] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:10:26 2021] GET / => generated 35980 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 58/58] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:10:28 2021] GET / => generated 35980 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 59/59] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:10:40 2021] GET / => generated 35980 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 60/60] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:10:54 2021] GET / => generated 35980 bytes in 51 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 61/61] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:11:03 2021] GET / => generated 35980 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 62/62] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:11:09 2021] GET / => generated 35980 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 63/63] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:11:55 2021] GET / => generated 35980 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 64/64] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:12:10 2021] GET / => generated 35980 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 65/65] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:12:28 2021] GET / => generated 35980 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 66/66] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:12:33 2021] GET / => generated 35980 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 67/67] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:12:47 2021] GET / => generated 35980 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 68/68] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:13:27 2021] GET / => generated 35980 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 69/69] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:13:47 2021] GET / => generated 35956 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 70/70] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:16:12 2021] GET / => generated 35953 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 71/71] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:19:00 2021] GET / => generated 35955 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 72/72] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:19:58 2021] GET / => generated 35955 bytes in 97 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 73/73] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:20:45 2021] GET / => generated 35955 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 74/74] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:20:53 2021] GET / => generated 35955 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 75/75] 127.0.0.1 () {50 vars in 887 bytes} [Mon Jan 11 07:21:00 2021] GET / => generated 35955 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 76/76] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:22:21 2021] GET / => generated 36024 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 77/77] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:23:16 2021] GET / => generated 36024 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 78/78] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:23:35 2021] GET / => generated 36358 bytes in 37 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 79/79] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:25:02 2021] GET / => generated 36358 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 80/80] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:25:52 2021] GET / => generated 36357 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 81/81] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:26:03 2021] GET / => generated 36359 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 82/82] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:26:11 2021] GET / => generated 36360 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 83/83] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:26:43 2021] GET / => generated 36361 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 84/84] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:26:54 2021] GET / => generated 36360 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 85/85] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:27:56 2021] GET / => generated 36360 bytes in 58 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1595|app: 0|req: 86/86] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:28:16 2021] GET / => generated 36360 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 87/87] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:28:31 2021] GET / => generated 36360 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 1595|app: 0|req: 88/88] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 11 07:28:39 2021] GET / => generated 36360 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 89/89] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:32:41 2021] GET / => generated 36360 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 90/90] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:34:28 2021] GET / => generated 36360 bytes in 94 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 91/91] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:35:04 2021] GET / => generated 36360 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 92/92] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:37:14 2021] GET / => generated 36353 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1595|app: 0|req: 93/93] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:37:20 2021] GET / => generated 36353 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 94/94] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:38:07 2021] GET / => generated 36353 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 95/95] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:38:17 2021] GET / => generated 36353 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 96/96] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:39:00 2021] GET / => generated 36353 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1595|app: 0|req: 97/97] 127.0.0.1 () {50 vars in 901 bytes} [Mon Jan 11 09:39:12 2021] GET / => generated 36353 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1595|app: 0|req: 98/98] 127.0.0.1 () {50 vars in 887 bytes} [Mon Jan 11 09:39:16 2021] GET / => generated 36353 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jan 11 11:27:28 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb05040bc70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb05040bc70 pid: 1587 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1587)
+spawned uWSGI worker 1 (pid: 3288, cores: 1)
+spawned uWSGI worker 2 (pid: 3289, cores: 1)
+spawned uWSGI worker 3 (pid: 3290, cores: 1)
+spawned uWSGI worker 4 (pid: 3291, cores: 1)
+spawned uWSGI worker 5 (pid: 3292, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 12 21:51:47 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f99704042f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f99704042f0 pid: 623 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 623)
+spawned uWSGI worker 1 (pid: 626, cores: 1)
+spawned uWSGI worker 2 (pid: 627, cores: 1)
+spawned uWSGI worker 3 (pid: 628, cores: 1)
+spawned uWSGI worker 4 (pid: 629, cores: 1)
+spawned uWSGI worker 5 (pid: 630, cores: 1)
+[pid: 630|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 21:51:49 2021] GET / => generated 36353 bytes in 144 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:01:02 2021] GET / => generated 36354 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:05:04 2021] GET / => generated 36353 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:06:45 2021] GET / => generated 36356 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 630|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:07:04 2021] GET / => generated 36356 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:07:10 2021] GET / => generated 36356 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 630|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:07:24 2021] GET / => generated 36354 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:08:53 2021] GET / => generated 36353 bytes in 50 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 630|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:09:47 2021] GET / => generated 36356 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:10:07 2021] GET / => generated 36353 bytes in 316 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 630|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:11:56 2021] GET / => generated 36381 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 12/12] 127.0.0.1 () {48 vars in 842 bytes} [Tue Jan 12 22:32:48 2021] GET / => generated 36381 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 12 22:33:29 2021] GET / => generated 36381 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:34:06 2021] GET / => generated 36381 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:34:17 2021] GET / => generated 36381 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:34:25 2021] GET / => generated 36381 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 630|app: 0|req: 17/17] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:35:30 2021] GET / => generated 36415 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:35:33 2021] GET / => generated 36415 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 19/19] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:35:53 2021] GET / => generated 36415 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:12 2021] GET / => generated 36415 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 630|app: 0|req: 21/21] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:26 2021] GET / => generated 36415 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 22/22] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:30 2021] GET / => generated 36415 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 23/23] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:32 2021] GET / => generated 36415 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 630|app: 0|req: 24/24] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:40 2021] GET / => generated 36415 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 25/25] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:45 2021] GET / => generated 36415 bytes in 42 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 26/26] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:50 2021] GET / => generated 36415 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 27/27] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:54 2021] GET / => generated 36415 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 630|app: 0|req: 28/28] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:36:59 2021] GET / => generated 36415 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 29/29] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:37:06 2021] GET / => generated 36415 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 30/30] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:37:15 2021] GET / => generated 36415 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 31/31] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:37:26 2021] GET / => generated 36415 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 32/32] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:37:50 2021] GET / => generated 36429 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 33/33] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:38:25 2021] GET / => generated 36415 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 34/34] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:08 2021] GET / => generated 36415 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 35/35] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:14 2021] GET / => generated 36415 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 36/36] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:18 2021] GET / => generated 36415 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 37/37] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:25 2021] GET / => generated 36415 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 38/38] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:38 2021] GET / => generated 36415 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 39/39] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:49 2021] GET / => generated 36415 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 630|app: 0|req: 40/40] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:42:59 2021] GET / => generated 36415 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 629|app: 0|req: 1/41] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:54:33 2021] GET / => generated 36415 bytes in 369 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 630|app: 0|req: 41/42] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:54:36 2021] GET / => generated 36415 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 42/43] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:55:02 2021] GET / => generated 36415 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 630|app: 0|req: 43/44] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:55:14 2021] GET / => generated 36415 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 44/45] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:55:41 2021] GET / => generated 36415 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 45/46] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:56:25 2021] GET / => generated 36415 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 630|app: 0|req: 46/47] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:57:01 2021] GET / => generated 36437 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 47/48] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:57:03 2021] GET / => generated 36437 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 48/49] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:57:06 2021] GET / => generated 36437 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 49/50] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:57:20 2021] GET / => generated 36461 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 50/51] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:57:23 2021] GET / => generated 36461 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 51/52] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:57:26 2021] GET / => generated 36461 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 52/53] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:58:22 2021] GET / => generated 36463 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 53/54] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:58:25 2021] GET / => generated 36463 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 630|app: 0|req: 54/55] 127.0.0.1 () {48 vars in 842 bytes} [Tue Jan 12 22:58:34 2021] GET / => generated 36463 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 630|app: 0|req: 55/56] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:59:08 2021] GET / => generated 36464 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 630|app: 0|req: 56/57] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:59:10 2021] GET / => generated 36464 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 12 22:59:40 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff7ebd03330
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff7ebd03330 pid: 1327 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1327)
+spawned uWSGI worker 1 (pid: 1330, cores: 1)
+spawned uWSGI worker 2 (pid: 1331, cores: 1)
+spawned uWSGI worker 3 (pid: 1332, cores: 1)
+spawned uWSGI worker 4 (pid: 1333, cores: 1)
+spawned uWSGI worker 5 (pid: 1334, cores: 1)
+[pid: 1334|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:59:41 2021] GET / => generated 36464 bytes in 227 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1334|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 22:59:42 2021] GET / => generated 36464 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 1334|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 23:00:11 2021] GET / => generated 36464 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 1334|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 23:00:14 2021] GET / => generated 36464 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 1334|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 23:00:29 2021] GET / => generated 36464 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1334|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 12 23:00:39 2021] GET / => generated 36464 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 13 10:56:09 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ffaa3c0ba00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7ffaa3c0ba00 pid: 681 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 681)
+spawned uWSGI worker 1 (pid: 702, cores: 1)
+spawned uWSGI worker 2 (pid: 703, cores: 1)
+spawned uWSGI worker 3 (pid: 704, cores: 1)
+spawned uWSGI worker 4 (pid: 705, cores: 1)
+spawned uWSGI worker 5 (pid: 706, cores: 1)
+[pid: 706|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 863 bytes} [Wed Jan 13 10:56:21 2021] GET / => generated 36464 bytes in 356 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:01:50 2021] GET / => generated 36510 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:02:04 2021] GET / => generated 36510 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:02:56 2021] GET / => generated 36598 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:03:20 2021] GET / => generated 36600 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:03:39 2021] GET / => generated 36600 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:07:22 2021] GET / => generated 36622 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:09:08 2021] GET / => generated 36897 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:10:55 2021] GET / => generated 37107 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:11:23 2021] GET / => generated 37113 bytes in 86 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:12:13 2021] GET / => generated 37121 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:13:24 2021] GET / => generated 37004 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:14:06 2021] GET / => generated 36948 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:16:18 2021] GET / => generated 36970 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:16:29 2021] GET / => generated 36948 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:16:41 2021] GET / => generated 36958 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 17/17] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:20:19 2021] GET / => generated 36945 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:21:46 2021] GET / => generated 37023 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 19/19] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:22:09 2021] GET / => generated 37068 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:22:27 2021] GET / => generated 37055 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 21/21] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:22:34 2021] GET / => generated 37032 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 22/22] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:24:49 2021] GET / => generated 37032 bytes in 74 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 23/23] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:25:01 2021] GET / => generated 37018 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 24/24] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:25:59 2021] GET / => generated 37037 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 25/25] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:26:17 2021] GET / => generated 37135 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 26/26] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:26:29 2021] GET / => generated 37099 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 27/27] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 11:26:45 2021] GET / => generated 37099 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 28/28] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 11:26:58 2021] GET / => generated 37099 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 29/29] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:27:18 2021] GET / => generated 37099 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 30/30] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:28:14 2021] GET / => generated 37099 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 31/31] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:28:23 2021] GET / => generated 37099 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 32/32] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:30:16 2021] GET / => generated 37099 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 33/33] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:30:38 2021] GET / => generated 37099 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 34/34] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:31:32 2021] GET / => generated 37099 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 35/35] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:31:46 2021] GET / => generated 37099 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 36/36] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:31:56 2021] GET / => generated 37099 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 37/37] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:32:16 2021] GET / => generated 37099 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 38/38] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:32:57 2021] GET / => generated 37171 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 39/39] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:33:17 2021] GET / => generated 37164 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 40/40] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:33:58 2021] GET / => generated 37171 bytes in 50 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 41/41] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:35:44 2021] GET / => generated 37203 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 42/42] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:36:02 2021] GET / => generated 37203 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 43/43] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:36:12 2021] GET / => generated 37203 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 44/44] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:38:04 2021] GET / => generated 37203 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 45/45] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:38:18 2021] GET / => generated 37203 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 46/46] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:38:45 2021] GET / => generated 37203 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 47/47] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:39:04 2021] GET / => generated 37203 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 48/48] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:39:44 2021] GET / => generated 37203 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 49/49] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:40:00 2021] GET / => generated 37203 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 50/50] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:41:47 2021] GET / => generated 37199 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 51/51] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:42:42 2021] GET / => generated 37276 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 52/52] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:43:26 2021] GET / => generated 37286 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 53/53] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:43:58 2021] GET / => generated 37286 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 54/54] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:44:02 2021] GET / => generated 37286 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 55/55] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:44:11 2021] GET / => generated 37286 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 56/56] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:44:31 2021] GET / => generated 37286 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 57/57] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:44:41 2021] GET / => generated 37286 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 58/58] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:45:21 2021] GET / => generated 37286 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 59/59] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:46:42 2021] GET / => generated 37286 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 60/60] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:46:55 2021] GET / => generated 37300 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 61/61] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:47:41 2021] GET / => generated 37325 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 62/62] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:48:42 2021] GET / => generated 37340 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 63/63] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:48:53 2021] GET / => generated 37340 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 64/64] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:49:26 2021] GET / => generated 37301 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 65/65] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:49:39 2021] GET / => generated 37321 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 66/66] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:49:44 2021] GET / => generated 37315 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 67/67] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:50:00 2021] GET / => generated 37339 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 68/68] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:50:16 2021] GET / => generated 37339 bytes in 37 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 69/69] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:50:38 2021] GET / => generated 37325 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 70/70] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:50:53 2021] GET / => generated 37325 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 71/71] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:51:02 2021] GET / => generated 37325 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 72/72] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:51:13 2021] GET / => generated 37325 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 73/73] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:51:21 2021] GET / => generated 37325 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 74/74] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:51:59 2021] GET / => generated 37325 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 75/75] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:52:41 2021] GET / => generated 37400 bytes in 44 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 76/76] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:56:06 2021] GET / => generated 37400 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 77/77] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:56:15 2021] GET / => generated 37400 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 78/78] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:58:35 2021] GET / => generated 37483 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 79/79] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:58:49 2021] GET / => generated 37565 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 80/80] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:58:53 2021] GET / => generated 37483 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 81/81] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:59:33 2021] GET / => generated 37590 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 82/82] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:59:42 2021] GET / => generated 37598 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 83/83] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 11:59:51 2021] GET / => generated 37684 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 84/84] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:00:20 2021] GET / => generated 37704 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 85/85] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:00:29 2021] GET / => generated 37700 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 86/86] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:00:44 2021] GET / => generated 37684 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 87/87] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:01:12 2021] GET / => generated 37684 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 88/88] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:01:21 2021] GET / => generated 37835 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 89/89] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:02:03 2021] GET / => generated 37462 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 90/90] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:02:21 2021] GET / => generated 37462 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 91/91] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:02:31 2021] GET / => generated 37462 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 92/92] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 12:02:41 2021] GET / => generated 37462 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 93/93] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:03:11 2021] GET / => generated 37462 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 94/94] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:03:43 2021] GET / => generated 37462 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 95/95] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:03:49 2021] GET / => generated 37462 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 96/96] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:04:53 2021] GET / => generated 37462 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 97/97] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:05:02 2021] GET / => generated 37462 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 98/98] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:05:20 2021] GET / => generated 37462 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 99/99] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:05:36 2021] GET / => generated 37462 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 100/100] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:08:10 2021] GET / => generated 37835 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 101/101] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:08:34 2021] GET / => generated 37837 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 102/102] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:08:55 2021] GET / => generated 37852 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 103/103] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:09:06 2021] GET / => generated 37850 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 104/104] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:09:11 2021] GET / => generated 37852 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 105/105] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:09:29 2021] GET / => generated 37866 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 106/106] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:09:39 2021] GET / => generated 37852 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 107/107] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:09:54 2021] GET / => generated 37853 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 108/108] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:10:07 2021] GET / => generated 37853 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 109/109] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 12:10:22 2021] GET / => generated 37853 bytes in 59 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 110/110] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:10:57 2021] GET / => generated 37857 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 111/111] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:11:01 2021] GET / => generated 37857 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 112/112] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:11:06 2021] GET / => generated 37857 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 113/113] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:11:39 2021] GET / => generated 37821 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 114/114] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:11:58 2021] GET / => generated 37821 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 115/115] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:12:20 2021] GET / => generated 37806 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 116/116] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:12:29 2021] GET / => generated 37816 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 117/117] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:12:33 2021] GET / => generated 37821 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 118/118] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:15:35 2021] GET / => generated 37845 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 119/119] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:15:43 2021] GET / => generated 37841 bytes in 42 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 120/120] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:16:00 2021] GET / => generated 37857 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 121/121] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:17:34 2021] GET / => generated 37861 bytes in 40 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 122/122] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:17:53 2021] GET / => generated 37861 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 123/123] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:17:59 2021] GET / => generated 37861 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 124/124] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 12:18:07 2021] GET / => generated 37861 bytes in 50 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 125/125] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:18:13 2021] GET / => generated 37861 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 126/126] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:18:34 2021] GET / => generated 37861 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 127/127] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:18:40 2021] GET / => generated 37861 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 128/128] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:18:50 2021] GET / => generated 37861 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 129/129] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:28:25 2021] GET / => generated 37941 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 130/130] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:29:17 2021] GET / => generated 38598 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 131/131] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:29:21 2021] GET / => generated 38598 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 132/132] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:29:25 2021] GET / => generated 38598 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 133/133] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:30:29 2021] GET / => generated 38141 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 134/134] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:30:35 2021] GET / => generated 38141 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 135/135] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:30:54 2021] GET / => generated 38141 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 136/136] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:31:10 2021] GET / => generated 38157 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 137/137] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:31:21 2021] GET / => generated 38157 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 138/138] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:31:39 2021] GET / => generated 38160 bytes in 40 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 139/139] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:32:07 2021] GET / => generated 38174 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 140/140] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:32:15 2021] GET / => generated 38160 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 141/141] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:32:55 2021] GET / => generated 37878 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 142/142] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:33:05 2021] GET / => generated 37886 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 143/143] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:33:12 2021] GET / => generated 37886 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 144/144] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:33:20 2021] GET / => generated 37886 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 145/145] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:33:39 2021] GET / => generated 37910 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 146/146] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 12:33:45 2021] GET / => generated 37910 bytes in 56 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 147/147] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:35:07 2021] GET / => generated 37910 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 148/148] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:35:42 2021] GET / => generated 37910 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 149/149] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:35:44 2021] GET / => generated 37910 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 150/150] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:36:06 2021] GET / => generated 37910 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 151/151] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:36:20 2021] GET / => generated 37910 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 152/152] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:36:40 2021] GET / => generated 37910 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 153/153] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:36:57 2021] GET / => generated 37910 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 154/154] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:37:45 2021] GET / => generated 37910 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 155/155] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:38:06 2021] GET / => generated 37910 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 156/156] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:40:01 2021] GET / => generated 37963 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 157/157] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:41:14 2021] GET / => generated 38050 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 158/158] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:41:27 2021] GET / => generated 38279 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 159/159] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:41:58 2021] GET / => generated 38316 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 160/160] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:42:13 2021] GET / => generated 38849 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 161/161] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:43:04 2021] GET / => generated 38329 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 162/162] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:44:24 2021] GET / => generated 37798 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 163/163] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:44:52 2021] GET / => generated 37922 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 164/164] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:45:17 2021] GET / => generated 38127 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 165/165] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:45:23 2021] GET / => generated 37922 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 166/166] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:45:53 2021] GET / => generated 37951 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 167/167] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:46:06 2021] GET / => generated 38127 bytes in 68 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 168/168] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:46:13 2021] GET / => generated 38135 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 169/169] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:46:41 2021] GET / => generated 38135 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 170/170] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:46:54 2021] GET / => generated 38135 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 171/171] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:47:03 2021] GET / => generated 38135 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 172/172] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:47:29 2021] GET / => generated 38135 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 173/173] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:47:33 2021] GET / => generated 38135 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 174/174] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:47:38 2021] GET / => generated 38135 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 175/175] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:47:47 2021] GET / => generated 38135 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 706|app: 0|req: 176/176] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:48:21 2021] GET / => generated 38127 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 177/177] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:48:25 2021] GET / => generated 38135 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 178/178] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:48:32 2021] GET / => generated 37727 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 179/179] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:48:37 2021] GET / => generated 37738 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 180/180] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:49:36 2021] GET / => generated 37911 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 181/181] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:49:50 2021] GET / => generated 38016 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 182/182] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:49:57 2021] GET / => generated 38024 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 183/183] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:50:38 2021] GET / => generated 37968 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 184/184] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:50:47 2021] GET / => generated 38122 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 185/185] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:50:57 2021] GET / => generated 38139 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 186/186] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:51:25 2021] GET / => generated 38129 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 187/187] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:51:38 2021] GET / => generated 38437 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 188/188] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:51:59 2021] GET / => generated 38469 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 189/189] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:52:14 2021] GET / => generated 38482 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 190/190] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:52:34 2021] GET / => generated 38418 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 191/191] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:52:54 2021] GET / => generated 38428 bytes in 43 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 192/192] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:53:05 2021] GET / => generated 38428 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 193/193] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:53:44 2021] GET / => generated 38436 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 194/194] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:54:12 2021] GET / => generated 38452 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 195/195] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:54:28 2021] GET / => generated 38418 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 196/196] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:55:24 2021] GET / => generated 38083 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 197/197] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:55:34 2021] GET / => generated 38281 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 198/198] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:56:48 2021] GET / => generated 38083 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 199/199] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:57:15 2021] GET / => generated 38327 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 200/200] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:57:24 2021] GET / => generated 38815 bytes in 40 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 201/201] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:57:37 2021] GET / => generated 39303 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 202/202] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:59:26 2021] GET / => generated 39318 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 203/203] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:59:39 2021] GET / => generated 39318 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 204/204] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 12:59:51 2021] GET / => generated 39318 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 205/205] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:00:15 2021] GET / => generated 39807 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 206/206] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:00:29 2021] GET / => generated 39807 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 207/207] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:00:47 2021] GET / => generated 39807 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 706|app: 0|req: 208/208] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:00:54 2021] GET / => generated 39807 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 209/209] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:01:07 2021] GET / => generated 40296 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 706|app: 0|req: 210/210] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:01:41 2021] GET / => generated 40296 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 211/211] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:01:52 2021] GET / => generated 40296 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 212/212] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:03:26 2021] GET / => generated 40296 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 213/213] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:04:10 2021] GET / => generated 40296 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 214/214] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:04:39 2021] GET / => generated 40296 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 706|app: 0|req: 215/215] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:08:29 2021] GET / => generated 40296 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 706|app: 0|req: 216/216] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:08:44 2021] GET / => generated 40296 bytes in 40 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 706|app: 0|req: 217/217] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 13:08:52 2021] GET / => generated 40296 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 13 13:10:01 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8bb3d01910
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8bb3d01910 pid: 681 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 681)
+spawned uWSGI worker 1 (pid: 5287, cores: 1)
+spawned uWSGI worker 2 (pid: 5288, cores: 1)
+spawned uWSGI worker 3 (pid: 5289, cores: 1)
+spawned uWSGI worker 4 (pid: 5290, cores: 1)
+spawned uWSGI worker 5 (pid: 5291, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 13 19:45:43 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcbe040acd0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcbe040acd0 pid: 562 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 562)
+spawned uWSGI worker 1 (pid: 578, cores: 1)
+spawned uWSGI worker 2 (pid: 579, cores: 1)
+spawned uWSGI worker 3 (pid: 580, cores: 1)
+spawned uWSGI worker 4 (pid: 581, cores: 1)
+spawned uWSGI worker 5 (pid: 582, cores: 1)
+[pid: 582|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 19:45:57 2021] GET / => generated 40296 bytes in 331 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:46:04 2021] GET / => generated 40296 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:46:06 2021] GET / => generated 40296 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:49:52 2021] GET / => generated 40306 bytes in 60 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 582|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:51:06 2021] GET / => generated 40306 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 582|app: 0|req: 6/6] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 19:51:50 2021] GET / => generated 40306 bytes in 72 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 582|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:52:28 2021] GET / => generated 40306 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:52:35 2021] GET / => generated 40306 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:53:06 2021] GET / => generated 40306 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:53:18 2021] GET / => generated 40290 bytes in 104 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:53:21 2021] GET / => generated 40290 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 12/12] 127.0.0.1 () {48 vars in 842 bytes} [Wed Jan 13 19:53:40 2021] GET / => generated 40290 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:54:07 2021] GET / => generated 40314 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 873 bytes} [Wed Jan 13 19:54:40 2021] GET / => generated 40314 bytes in 37 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 887 bytes} [Wed Jan 13 19:54:52 2021] GET / => generated 40314 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 582|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:55:24 2021] GET / => generated 40314 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 17/17] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:56:01 2021] GET / => generated 40314 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:56:35 2021] GET / => generated 40350 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 19/19] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:56:53 2021] GET / => generated 40368 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:58:08 2021] GET / => generated 40368 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 21/21] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:58:46 2021] GET / => generated 40368 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 22/22] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 19:59:42 2021] GET / => generated 40368 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 23/23] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:04:32 2021] GET / => generated 40368 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 24/24] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:04:37 2021] GET / => generated 40368 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 25/25] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:05:15 2021] GET / => generated 40368 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 26/26] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:05:18 2021] GET / => generated 40368 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 27/27] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:05:36 2021] GET / => generated 40368 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 28/28] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:05:39 2021] GET / => generated 40368 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 29/29] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:05:48 2021] GET / => generated 40368 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 30/30] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:06:35 2021] GET / => generated 40415 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 31/31] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:06:43 2021] GET / => generated 40415 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 582|app: 0|req: 32/32] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:07:14 2021] GET / => generated 40415 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 33/33] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:08:24 2021] GET / => generated 40415 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 34/34] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:09:32 2021] GET / => generated 40415 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 35/35] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:10:00 2021] GET / => generated 40415 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 36/36] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:10:15 2021] GET / => generated 40415 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 37/37] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:10:36 2021] GET / => generated 40415 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 38/38] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:11:02 2021] GET / => generated 40415 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 39/39] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:11:42 2021] GET / => generated 40415 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 40/40] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:12:24 2021] GET / => generated 40415 bytes in 36 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 41/41] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:13:25 2021] GET / => generated 40428 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 42/42] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:13:45 2021] GET / => generated 40415 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 582|app: 0|req: 43/43] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:14:54 2021] GET / => generated 40415 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 44/44] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:15:31 2021] GET / => generated 40415 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 45/45] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:15:44 2021] GET / => generated 40397 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 46/46] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:16:02 2021] GET / => generated 40407 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 47/47] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:16:55 2021] GET / => generated 40494 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 48/48] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:17:22 2021] GET / => generated 40494 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 49/49] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:17:43 2021] GET / => generated 40494 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 582|app: 0|req: 50/50] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:17:54 2021] GET / => generated 40494 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 51/51] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:18:04 2021] GET / => generated 40494 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 52/52] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:18:21 2021] GET / => generated 40494 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 53/53] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:18:36 2021] GET / => generated 40494 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 582|app: 0|req: 54/54] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:18:58 2021] GET / => generated 40494 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 55/55] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:19:29 2021] GET / => generated 40494 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 56/56] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:20:19 2021] GET / => generated 40584 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 582|app: 0|req: 57/57] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:21:33 2021] GET / => generated 40597 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 58/58] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:22:16 2021] GET / => generated 40597 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 582|app: 0|req: 59/59] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 13 20:23:32 2021] GET / => generated 40597 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Jan 17 17:23:51 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fef8a40ba80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fef8a40ba80 pid: 562 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 562)
+spawned uWSGI worker 1 (pid: 2497, cores: 1)
+spawned uWSGI worker 2 (pid: 2498, cores: 1)
+spawned uWSGI worker 3 (pid: 2499, cores: 1)
+spawned uWSGI worker 4 (pid: 2500, cores: 1)
+spawned uWSGI worker 5 (pid: 2501, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jan 18 12:07:58 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fa0b9c0c130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fa0b9c0c130 pid: 551 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 551)
+spawned uWSGI worker 1 (pid: 554, cores: 1)
+spawned uWSGI worker 2 (pid: 555, cores: 1)
+spawned uWSGI worker 3 (pid: 556, cores: 1)
+spawned uWSGI worker 4 (pid: 557, cores: 1)
+spawned uWSGI worker 5 (pid: 558, cores: 1)
+[pid: 558|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 887 bytes} [Mon Jan 18 12:08:13 2021] GET / => generated 40595 bytes in 115 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 558|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 18 12:08:28 2021] GET / => generated 40595 bytes in 17 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 558|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 18 12:09:14 2021] GET / => generated 40595 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 558|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 18 12:11:51 2021] GET / => generated 40595 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 558|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 894 bytes} [Mon Jan 18 12:11:57 2021] GET / => generated 40595 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 558|app: 0|req: 6/6] 127.0.0.1 () {48 vars in 842 bytes} [Mon Jan 18 12:12:05 2021] GET / => generated 40595 bytes in 45 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 558|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:12:22 2021] GET / => generated 40595 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 558|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:12:37 2021] GET / => generated 40595 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 558|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:12:43 2021] GET / => generated 40595 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 558|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:12:55 2021] GET / => generated 40595 bytes in 122 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 558|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:13:20 2021] GET / => generated 40595 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 558|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:13:25 2021] GET / => generated 40595 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 558|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 873 bytes} [Mon Jan 18 12:13:35 2021] GET / => generated 40595 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jan 18 12:18:39 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff363c0ce70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff363c0ce70 pid: 551 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 551)
+spawned uWSGI worker 1 (pid: 863, cores: 1)
+spawned uWSGI worker 2 (pid: 864, cores: 1)
+spawned uWSGI worker 3 (pid: 865, cores: 1)
+spawned uWSGI worker 4 (pid: 866, cores: 1)
+spawned uWSGI worker 5 (pid: 867, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 19 14:32:34 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MBP
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcad9d03760
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcad9d03760 pid: 599 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 599)
+spawned uWSGI worker 1 (pid: 602, cores: 1)
+spawned uWSGI worker 2 (pid: 603, cores: 1)
+spawned uWSGI worker 3 (pid: 604, cores: 1)
+spawned uWSGI worker 4 (pid: 605, cores: 1)
+spawned uWSGI worker 5 (pid: 606, cores: 1)
+[pid: 606|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:32:37 2021] GET / => generated 40595 bytes in 265 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:38:19 2021] GET / => generated 40595 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:45:24 2021] GET / => generated 40595 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:46:14 2021] GET / => generated 40595 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 606|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:46:51 2021] GET / => generated 40587 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 606|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:47:07 2021] GET / => generated 40581 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:50:07 2021] GET / => generated 40818 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:51:04 2021] GET / => generated 40819 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:51:41 2021] GET / => generated 40780 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:52:08 2021] GET / => generated 40795 bytes in 131 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:52:39 2021] GET / => generated 40763 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 606|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:52:52 2021] GET / => generated 41057 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:56:44 2021] GET / => generated 41044 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:57:12 2021] GET / => generated 41057 bytes in 53 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 14:59:32 2021] GET / => generated 41054 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 894 bytes} [Tue Jan 19 15:00:12 2021] GET / => generated 41054 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 17/17] 127.0.0.1 () {48 vars in 842 bytes} [Tue Jan 19 15:00:17 2021] GET / => generated 41054 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 18/18] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:00:37 2021] GET / => generated 41054 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 606|app: 0|req: 19/19] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:05:04 2021] GET / => generated 41054 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 606|app: 0|req: 20/20] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:05:17 2021] GET / => generated 41054 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 21/21] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:08:53 2021] GET / => generated 41054 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 606|app: 0|req: 22/22] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:15:43 2021] GET / => generated 41054 bytes in 116 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 23/23] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:16:07 2021] GET / => generated 41054 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 24/24] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:16:40 2021] GET / => generated 41054 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 606|app: 0|req: 25/25] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:17:22 2021] GET / => generated 41054 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 26/26] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:19:11 2021] GET / => generated 41056 bytes in 26 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 27/27] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:20:02 2021] GET / => generated 40916 bytes in 38 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 28/28] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:20:17 2021] GET / => generated 40916 bytes in 43 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 29/29] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:20:35 2021] GET / => generated 40940 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 30/30] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:20:59 2021] GET / => generated 40940 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 606|app: 0|req: 31/31] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:21:03 2021] GET / => generated 40940 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 606|app: 0|req: 32/32] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:21:07 2021] GET / => generated 40940 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 33/33] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:21:11 2021] GET / => generated 40940 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 34/34] 127.0.0.1 () {48 vars in 842 bytes} [Tue Jan 19 15:21:17 2021] GET / => generated 40940 bytes in 106 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 35/35] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:22:03 2021] GET / => generated 40957 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 36/36] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:22:11 2021] GET / => generated 40958 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 606|app: 0|req: 37/37] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:22:15 2021] GET / => generated 40957 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 605|app: 0|req: 1/38] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:22:35 2021] GET / => generated 40972 bytes in 225 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 606|app: 0|req: 38/39] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:23:14 2021] GET / => generated 40972 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 39/40] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:23:25 2021] GET / => generated 40972 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 606|app: 0|req: 40/41] 127.0.0.1 () {50 vars in 873 bytes} [Tue Jan 19 15:23:49 2021] GET / => generated 40971 bytes in 34 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 19 15:35:26 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MBP
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fb162c0cea0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb162c0cea0 pid: 599 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 599)
+spawned uWSGI worker 1 (pid: 1258, cores: 1)
+spawned uWSGI worker 2 (pid: 1259, cores: 1)
+spawned uWSGI worker 3 (pid: 1260, cores: 1)
+spawned uWSGI worker 4 (pid: 1261, cores: 1)
+spawned uWSGI worker 5 (pid: 1262, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jan 20 18:54:44 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9e2a409130
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7f9e2a409130 pid: 667 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 667)
+spawned uWSGI worker 1 (pid: 671, cores: 1)
+spawned uWSGI worker 2 (pid: 672, cores: 1)
+spawned uWSGI worker 3 (pid: 673, cores: 1)
+spawned uWSGI worker 4 (pid: 674, cores: 1)
+spawned uWSGI worker 5 (pid: 675, cores: 1)
+[pid: 671|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 20 18:54:46 2021] GET / => generated 40971 bytes in 97 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 1/2] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 20 19:22:02 2021] GET / => generated 41228 bytes in 95 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 675|app: 0|req: 2/3] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 20 19:22:49 2021] GET / => generated 41268 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 675|app: 0|req: 3/4] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 20 19:58:00 2021] GET / => generated 41423 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 675|app: 0|req: 4/5] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 20 19:58:07 2021] GET / => generated 41431 bytes in 52 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 5/6] 127.0.0.1 () {50 vars in 894 bytes} [Wed Jan 20 19:58:36 2021] GET / => generated 41585 bytes in 41 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 6/7] 127.0.0.1 () {50 vars in 894 bytes} [Thu Jan 21 02:41:44 2021] GET / => generated 41585 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 7/8] 127.0.0.1 () {50 vars in 894 bytes} [Thu Jan 21 02:43:54 2021] GET / => generated 44407 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 8/9] 127.0.0.1 () {50 vars in 894 bytes} [Thu Jan 21 02:45:35 2021] GET / => generated 44410 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 675|app: 0|req: 9/10] 127.0.0.1 () {50 vars in 894 bytes} [Thu Jan 21 02:46:01 2021] GET / => generated 44424 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 10/11] 127.0.0.1 () {48 vars in 842 bytes} [Thu Jan 21 02:46:57 2021] GET / => generated 44424 bytes in 225 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 675|app: 0|req: 11/12] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:47:29 2021] GET / => generated 44411 bytes in 54 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 675|app: 0|req: 12/13] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:47:54 2021] GET / => generated 44403 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 13/14] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:49:17 2021] GET / => generated 40972 bytes in 40 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 675|app: 0|req: 14/15] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:50:12 2021] GET / => generated 41065 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 675|app: 0|req: 15/16] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:50:33 2021] GET / => generated 41087 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 675|app: 0|req: 16/17] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:51:05 2021] GET / => generated 41066 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 675|app: 0|req: 17/18] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:51:56 2021] GET / => generated 43888 bytes in 50 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 675|app: 0|req: 18/19] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:53:20 2021] GET / => generated 44168 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 19/20] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:53:41 2021] GET / => generated 44450 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 675|app: 0|req: 20/21] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:53:50 2021] GET / => generated 44168 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 675|app: 0|req: 21/22] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:55:15 2021] GET / => generated 44168 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 22/23] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:56:52 2021] GET / => generated 44168 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 23/24] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:57:34 2021] GET / => generated 44168 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 24/25] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:57:52 2021] GET / => generated 44168 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 675|app: 0|req: 25/26] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:58:11 2021] GET / => generated 44168 bytes in 33 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 675|app: 0|req: 26/27] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 02:58:20 2021] GET / => generated 44168 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 675|app: 0|req: 27/28] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:01:38 2021] GET / => generated 44153 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 675|app: 0|req: 28/29] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:02:41 2021] GET / => generated 44153 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 29/30] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:02:55 2021] GET / => generated 44153 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 675|app: 0|req: 30/31] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:03:23 2021] GET / => generated 44153 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+[pid: 675|app: 0|req: 31/32] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:04:35 2021] GET / => generated 44156 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 32/33] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:04:47 2021] GET / => generated 44156 bytes in 53 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 675|app: 0|req: 33/34] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:06:12 2021] GET / => generated 44420 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 675|app: 0|req: 34/35] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:06:33 2021] GET / => generated 44420 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 35/36] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:06:44 2021] GET / => generated 44154 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 675|app: 0|req: 36/37] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:07:13 2021] GET / => generated 44154 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 675|app: 0|req: 37/38] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:09:48 2021] GET / => generated 43981 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 675|app: 0|req: 38/39] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:10:00 2021] GET / => generated 44154 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 39/40] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:10:19 2021] GET / => generated 44168 bytes in 42 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 675|app: 0|req: 40/41] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:10:47 2021] GET / => generated 44164 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 41/42] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:11:02 2021] GET / => generated 44168 bytes in 37 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 675|app: 0|req: 42/43] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:11:25 2021] GET / => generated 44172 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 675|app: 0|req: 43/44] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:11:47 2021] GET / => generated 44164 bytes in 23 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 675|app: 0|req: 44/45] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:12:48 2021] GET / => generated 44154 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 675|app: 0|req: 45/46] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:13:03 2021] GET / => generated 44154 bytes in 32 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 675|app: 0|req: 46/47] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:13:38 2021] GET / => generated 44154 bytes in 35 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 675|app: 0|req: 47/48] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:13:57 2021] GET / => generated 44154 bytes in 51 msecs (HTTP/1.1 200) 5 headers in 168 bytes (5 switches on core 0)
+[pid: 675|app: 0|req: 48/49] 127.0.0.1 () {50 vars in 873 bytes} [Thu Jan 21 03:14:06 2021] GET / => generated 44154 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Jan 21 03:15:29 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MBP
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f9dc1c0ced0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9dc1c0ced0 pid: 667 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 667)
+spawned uWSGI worker 1 (pid: 1532, cores: 1)
+spawned uWSGI worker 2 (pid: 1533, cores: 1)
+spawned uWSGI worker 3 (pid: 1534, cores: 1)
+spawned uWSGI worker 4 (pid: 1535, cores: 1)
+spawned uWSGI worker 5 (pid: 1536, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Jan 23 21:38:37 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f921040a430
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7f921040a430 pid: 917 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 917)
+spawned uWSGI worker 1 (pid: 952, cores: 1)
+spawned uWSGI worker 2 (pid: 953, cores: 1)
+spawned uWSGI worker 3 (pid: 954, cores: 1)
+spawned uWSGI worker 4 (pid: 955, cores: 1)
+spawned uWSGI worker 5 (pid: 956, cores: 1)
+[pid: 956|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 887 bytes} [Sat Jan 23 21:38:56 2021] GET / => generated 44154 bytes in 338 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 956|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Sun Jan 24 11:35:15 2021] GET / => generated 44154 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 956|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Sun Jan 24 11:39:41 2021] GET / => generated 44154 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 956|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Sun Jan 24 11:42:28 2021] GET / => generated 44394 bytes in 43 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 956|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 842 bytes} [Sun Jan 24 11:42:40 2021] GET / => generated 44394 bytes in 92 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 956|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 873 bytes} [Sun Jan 24 11:43:15 2021] GET / => generated 44394 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 956|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 873 bytes} [Sun Jan 24 11:43:21 2021] GET / => generated 44394 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+[pid: 956|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 873 bytes} [Sun Jan 24 11:45:26 2021] GET / => generated 44394 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 956|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 886 bytes} [Mon Jan 25 06:30:36 2021] GET / => generated 44394 bytes in 27 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 956|app: 0|req: 10/10] 127.0.0.1 () {40 vars in 641 bytes} [Mon Jan 25 06:46:10 2021] GET / => generated 44439 bytes in 60 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 956|app: 0|req: 11/11] 127.0.0.1 () {38 vars in 548 bytes} [Mon Jan 25 06:46:15 2021] GET /apple-touch-icon-precomposed.png => generated 2191 bytes in 42 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 956|app: 0|req: 12/12] 127.0.0.1 () {38 vars in 524 bytes} [Mon Jan 25 06:46:15 2021] GET /apple-touch-icon.png => generated 2155 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 956|app: 0|req: 13/13] 127.0.0.1 () {40 vars in 641 bytes} [Mon Jan 25 06:47:51 2021] GET / => generated 44775 bytes in 22 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 956|app: 0|req: 14/14] 127.0.0.1 () {40 vars in 641 bytes} [Mon Jan 25 06:53:47 2021] GET / => generated 44394 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 956|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 886 bytes} [Mon Jan 25 07:04:33 2021] GET / => generated 44409 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jan 26 14:47:24 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fcc43c0cdf0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fcc43c0cdf0 pid: 917 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 917)
+spawned uWSGI worker 1 (pid: 4301, cores: 1)
+spawned uWSGI worker 2 (pid: 4302, cores: 1)
+spawned uWSGI worker 3 (pid: 4303, cores: 1)
+spawned uWSGI worker 4 (pid: 4304, cores: 1)
+spawned uWSGI worker 5 (pid: 4305, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Jan 28 18:43:06 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbc2840c6a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fbc2840c6a0 pid: 1801 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1801)
+spawned uWSGI worker 1 (pid: 1816, cores: 1)
+spawned uWSGI worker 2 (pid: 1818, cores: 1)
+spawned uWSGI worker 3 (pid: 1819, cores: 1)
+spawned uWSGI worker 4 (pid: 1820, cores: 1)
+spawned uWSGI worker 5 (pid: 1821, cores: 1)
+[pid: 1821|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 641 bytes} [Thu Jan 28 18:43:09 2021] GET / => generated 44409 bytes in 93 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Jan 28 19:15:33 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc272c0ce20
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc272c0ce20 pid: 1801 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1801)
+spawned uWSGI worker 1 (pid: 1897, cores: 1)
+spawned uWSGI worker 2 (pid: 1898, cores: 1)
+spawned uWSGI worker 3 (pid: 1899, cores: 1)
+spawned uWSGI worker 4 (pid: 1900, cores: 1)
+spawned uWSGI worker 5 (pid: 1901, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Feb  9 20:41:16 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd213d04820
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd213d04820 pid: 826 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 826)
+spawned uWSGI worker 1 (pid: 842, cores: 1)
+spawned uWSGI worker 2 (pid: 843, cores: 1)
+spawned uWSGI worker 3 (pid: 844, cores: 1)
+spawned uWSGI worker 4 (pid: 845, cores: 1)
+spawned uWSGI worker 5 (pid: 846, cores: 1)
+[pid: 846|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 893 bytes} [Tue Feb  9 20:41:19 2021] GET / => generated 44544 bytes in 297 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Feb 18 19:47:07 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff208503f30
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff208503f30 pid: 765 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 765)
+spawned uWSGI worker 1 (pid: 768, cores: 1)
+spawned uWSGI worker 2 (pid: 769, cores: 1)
+spawned uWSGI worker 3 (pid: 770, cores: 1)
+spawned uWSGI worker 4 (pid: 771, cores: 1)
+spawned uWSGI worker 5 (pid: 772, cores: 1)
+[pid: 772|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 863 bytes} [Thu Feb 18 19:47:12 2021] GET / => generated 44544 bytes in 401 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Thu Feb 18 20:15:12 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fac0940cf00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fac0940cf00 pid: 765 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 765)
+spawned uWSGI worker 1 (pid: 866, cores: 1)
+spawned uWSGI worker 2 (pid: 867, cores: 1)
+spawned uWSGI worker 3 (pid: 868, cores: 1)
+spawned uWSGI worker 4 (pid: 869, cores: 1)
+spawned uWSGI worker 5 (pid: 870, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb 22 09:22:26 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd0715020e0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x7fd0715020e0 pid: 793 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 793)
+spawned uWSGI worker 1 (pid: 796, cores: 1)
+spawned uWSGI worker 2 (pid: 797, cores: 1)
+spawned uWSGI worker 3 (pid: 798, cores: 1)
+spawned uWSGI worker 4 (pid: 799, cores: 1)
+spawned uWSGI worker 5 (pid: 800, cores: 1)
+[pid: 800|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 863 bytes} [Mon Feb 22 09:22:40 2021] GET / => generated 44544 bytes in 152 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+[pid: 800|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 09:24:07 2021] GET / => generated 44547 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 800|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 09:32:13 2021] GET / => generated 44557 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 800|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 09:40:41 2021] GET / => generated 44557 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 800|app: 0|req: 5/5] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 09:48:18 2021] GET / => generated 44557 bytes in 13 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+Not Found: /signup
+[pid: 800|app: 0|req: 6/6] 127.0.0.1 () {48 vars in 875 bytes} [Mon Feb 22 09:48:22 2021] GET /signup => generated 2113 bytes in 30 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 799|app: 0|req: 1/7] 127.0.0.1 () {46 vars in 796 bytes} [Mon Feb 22 09:48:23 2021] GET /favicon.ico => generated 2297 bytes in 62 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /signup/
+[pid: 800|app: 0|req: 7/8] 127.0.0.1 () {48 vars in 877 bytes} [Mon Feb 22 09:48:53 2021] GET /signup/ => generated 2116 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /signup/
+[pid: 800|app: 0|req: 8/9] 127.0.0.1 () {50 vars in 908 bytes} [Mon Feb 22 09:50:49 2021] GET /signup/ => generated 2116 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /smcd
+[pid: 800|app: 0|req: 9/10] 127.0.0.1 () {48 vars in 871 bytes} [Mon Feb 22 09:50:56 2021] GET /smcd => generated 2107 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/idris/vps/codeque/servers
+closing all non-uwsgi socket fds > 2 (max_fd = 256)...
+found fd 3 mapped to socket 0 (/Users/idris/vps/codeque/codeque/codeque.sock)
+running /Users/idris/vps/.codeque/bin/uwsgi
+[uWSGI] getting INI configuration from /Users/idris/vps/codeque/servers/codeque_uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb 22 09:51:56 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ff5d1c086f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff5d1c086f0 pid: 793 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 793)
+spawned uWSGI worker 1 (pid: 1346, cores: 1)
+spawned uWSGI worker 2 (pid: 1347, cores: 1)
+spawned uWSGI worker 3 (pid: 1348, cores: 1)
+spawned uWSGI worker 4 (pid: 1349, cores: 1)
+spawned uWSGI worker 5 (pid: 1350, cores: 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb 22 09:55:03 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f83eac09b00
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f83eac09b00 pid: 685 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 685)
+spawned uWSGI worker 1 (pid: 688, cores: 1)
+spawned uWSGI worker 2 (pid: 689, cores: 1)
+spawned uWSGI worker 3 (pid: 690, cores: 1)
+spawned uWSGI worker 4 (pid: 691, cores: 1)
+spawned uWSGI worker 5 (pid: 692, cores: 1)
+[pid: 692|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 863 bytes} [Mon Feb 22 09:55:17 2021] GET / => generated 44557 bytes in 352 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 692|app: 0|req: 2/2] 127.0.0.1 () {48 vars in 875 bytes} [Mon Feb 22 09:55:23 2021] GET /signup => generated 0 bytes in 1 msecs (HTTP/1.1 301) 5 headers in 176 bytes (1 switches on core 0)
+[pid: 692|app: 0|req: 3/3] 127.0.0.1 () {48 vars in 877 bytes} [Mon Feb 22 09:55:23 2021] GET /signup/ => generated 1841 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 692|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 908 bytes} [Mon Feb 22 11:32:59 2021] GET /signup/ => generated 1841 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /login
+[pid: 692|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 873 bytes} [Mon Feb 22 11:33:03 2021] GET /login => generated 2279 bytes in 33 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 692|app: 0|req: 6/6] 127.0.0.1 () {46 vars in 795 bytes} [Mon Feb 22 11:33:04 2021] GET /favicon.ico => generated 2297 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Feb 22 11:33:22 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fd41b40d500
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd41b40d500 pid: 1078 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1078)
+spawned uWSGI worker 1 (pid: 1087, cores: 1)
+spawned uWSGI worker 2 (pid: 1088, cores: 1)
+spawned uWSGI worker 3 (pid: 1089, cores: 1)
+spawned uWSGI worker 4 (pid: 1090, cores: 1)
+spawned uWSGI worker 5 (pid: 1091, cores: 1)
+Internal Server Error: /login
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/deprecation.py", line 113, in __call__
+    response = self.process_request(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/middleware/common.py", line 53, in process_request
+    if self.should_redirect_with_slash(request):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/middleware/common.py", line 71, in should_redirect_with_slash
+    not is_valid_path(request.path_info, urlconf) and
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 154, in is_valid_path
+    resolve(path, urlconf)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 25, in resolve
+    return get_resolver(urlconf).resolve(path)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 545, in resolve
+    for pattern in self.url_patterns:
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 589, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 582, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 790, in exec_module
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "./codeque/urls.py", line 5, in <module>
+    path('', include('apps.web.urls')),
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/conf.py", line 34, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1030, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1007, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 986, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 680, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 786, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 923, in get_code
+  File "<frozen importlib._bootstrap_external>", line 853, in source_to_code
+  File "<frozen importlib._bootstrap>", line 228, in _call_with_frames_removed
+  File "./apps/web/urls.py", line 7
+    path('login/' views.login, name='login'),
+                  ^
+SyntaxError: invalid syntax
+[pid: 1091|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 904 bytes} [Mon Feb 22 11:33:24 2021] GET /login => generated 142227 bytes in 486 msecs (HTTP/1.1 500) 3 headers in 126 bytes (4 switches on core 0)
+[pid: 1091|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 904 bytes} [Mon Feb 22 11:33:38 2021] GET /login => generated 0 bytes in 18 msecs (HTTP/1.1 301) 5 headers in 175 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 3/3] 127.0.0.1 () {50 vars in 906 bytes} [Mon Feb 22 11:33:38 2021] GET /login/ => generated 1779 bytes in 55 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 4/4] 127.0.0.1 () {50 vars in 906 bytes} [Mon Feb 22 11:33:55 2021] GET /login/ => generated 1779 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 5/5] 127.0.0.1 () {48 vars in 863 bytes} [Mon Feb 22 11:37:01 2021] GET / => generated 44557 bytes in 25 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1091|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 11:38:16 2021] GET / => generated 44572 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1091|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 11:39:11 2021] GET / => generated 44588 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 1091|app: 0|req: 8/8] 127.0.0.1 () {50 vars in 917 bytes} [Mon Feb 22 11:39:14 2021] GET /signup/ => generated 1841 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 9/9] 127.0.0.1 () {50 vars in 894 bytes} [Mon Feb 22 11:39:52 2021] GET / => generated 44641 bytes in 169 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+[pid: 1091|app: 0|req: 10/10] 127.0.0.1 () {50 vars in 915 bytes} [Mon Feb 22 11:39:55 2021] GET /login/ => generated 1779 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 11/11] 127.0.0.1 () {50 vars in 917 bytes} [Mon Feb 22 11:40:01 2021] GET /signup/ => generated 1841 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 12/12] 127.0.0.1 () {50 vars in 915 bytes} [Mon Feb 22 11:40:09 2021] GET /login/ => generated 1779 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 915 bytes} [Mon Feb 22 11:41:08 2021] GET /login/ => generated 1779 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 14/14] 127.0.0.1 () {50 vars in 917 bytes} [Mon Feb 22 11:46:25 2021] GET /signup/ => generated 1841 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 15/15] 127.0.0.1 () {50 vars in 915 bytes} [Mon Feb 22 11:46:32 2021] GET /login/ => generated 1779 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1091|app: 0|req: 16/16] 127.0.0.1 () {50 vars in 915 bytes} [Mon Feb 22 11:46:41 2021] GET /login/ => generated 1779 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Feb 28 16:53:27 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f99bbd02220
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f99bbd02220 pid: 1670 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1670)
+spawned uWSGI worker 1 (pid: 1673, cores: 1)
+spawned uWSGI worker 2 (pid: 1674, cores: 1)
+spawned uWSGI worker 3 (pid: 1675, cores: 1)
+spawned uWSGI worker 4 (pid: 1676, cores: 1)
+spawned uWSGI worker 5 (pid: 1677, cores: 1)
+[pid: 1677|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 641 bytes} [Sun Feb 28 16:53:34 2021] GET / => generated 44641 bytes in 105 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 1677|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 548 bytes} [Sun Feb 28 16:53:37 2021] GET /apple-touch-icon-precomposed.png => generated 2527 bytes in 42 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 1677|app: 0|req: 3/3] 127.0.0.1 () {38 vars in 524 bytes} [Sun Feb 28 16:53:37 2021] GET /apple-touch-icon.png => generated 2491 bytes in 18 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 688 bytes} [Sun Feb 28 16:53:39 2021] GET /signup/ => generated 1841 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 16:53:45 2021] GET /login/ => generated 1779 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 6/6] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 16:54:05 2021] GET /login/ => generated 1779 bytes in 11 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 7/7] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:00:17 2021] GET /login/ => generated 1799 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 8/8] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:02:09 2021] GET /login/ => generated 2403 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 9/9] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:02:39 2021] GET /login/ => generated 2407 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 10/10] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:03:03 2021] GET /login/ => generated 2389 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 11/11] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:03:22 2021] GET /login/ => generated 2417 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 12/12] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:03:57 2021] GET /login/ => generated 2421 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 13/13] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:04:09 2021] GET /login/ => generated 2444 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 1677|app: 0|req: 14/14] 127.0.0.1 () {42 vars in 686 bytes} [Sun Feb 28 17:04:38 2021] GET /login/ => generated 2444 bytes in 4 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Mar  1 16:17:20 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8acac09110
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8acac09110 pid: 2706 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2706)
+spawned uWSGI worker 1 (pid: 2709, cores: 1)
+spawned uWSGI worker 2 (pid: 2710, cores: 1)
+spawned uWSGI worker 3 (pid: 2711, cores: 1)
+spawned uWSGI worker 4 (pid: 2712, cores: 1)
+spawned uWSGI worker 5 (pid: 2713, cores: 1)
+[pid: 2713|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 641 bytes} [Mon Mar  1 16:17:28 2021] GET / => generated 44641 bytes in 96 msecs (HTTP/1.1 200) 5 headers in 168 bytes (6 switches on core 0)
+[pid: 2713|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 686 bytes} [Mon Mar  1 16:20:48 2021] GET /login/ => generated 2444 bytes in 10 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 2713|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 686 bytes} [Mon Mar  1 16:34:00 2021] GET /login/ => generated 1861 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 2713|app: 0|req: 4/4] 127.0.0.1 () {42 vars in 686 bytes} [Mon Mar  1 16:34:25 2021] GET /login/ => generated 1861 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 2713|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 686 bytes} [Mon Mar  1 16:34:28 2021] GET /login/ => generated 1861 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+[pid: 2713|app: 0|req: 6/6] 127.0.0.1 () {42 vars in 686 bytes} [Mon Mar  1 16:35:13 2021] GET /login/ => generated 1930 bytes in 6 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Mar  7 12:56:51 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fe943c0c260
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe943c0c260 pid: 2619 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2619)
+spawned uWSGI worker 1 (pid: 2622, cores: 1)
+spawned uWSGI worker 2 (pid: 2623, cores: 1)
+spawned uWSGI worker 3 (pid: 2624, cores: 1)
+spawned uWSGI worker 4 (pid: 2625, cores: 1)
+spawned uWSGI worker 5 (pid: 2626, cores: 1)
+[pid: 2626|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 887 bytes} [Sun Mar  7 12:56:55 2021] GET / => generated 44641 bytes in 106 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)

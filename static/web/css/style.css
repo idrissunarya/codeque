@@ -5,6 +5,7 @@
 
     .header-base {
         background-size: cover;
+        background-color: rgba(0, 0, 0, .9) !important;
     }
 
     /* Maker */
@@ -49,7 +50,6 @@
       75% { left: 68%; top: 72%; box-shadow: 0px 0px 7px 3px rgba(49, 6, 240, .4);}
       100% { left: 67%; top: 71%; box-shadow: 0px 0px 7px 3px rgba(49, 6, 240, .2);}
   }
-
 
   .header-base > .five-maker {
     animation: myMove5 3s infinite;
@@ -315,9 +315,10 @@
 
     .title-content-top-left {
         font-family: 'Montserrat', sans-serif;
-        padding-left: 10px;
-        border-left: 3px solid orange;
-        color: blue;
+        font-weight: 200;
+        padding-left: 0px;
+        border-left: 0px solid orange;
+        color:orange;
     }
 
     .box-content-left {
@@ -326,6 +327,19 @@
 
     .box-content-right * {
         font-family: 'Montserrat', sans-serif;
+    }
+
+    .title-right-content {
+        color: orange;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 200;
+    }
+
+    .description-right-content {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        font-size: .9em;
+        letter-spacing: .1em;
     }
 
     .img-last-post {
@@ -474,10 +488,119 @@
         background-color: rgba(236, 215, 145, 0.3);
     }
 
+    /* Content Video block right */
+    .video-content-right-img {
+        width: 100%;
+        height: 90vh;
+        border: 0px solid red;
+        /*background-image: linear-gradient(to top, rgba(0,0,0,1), transparent);*/
+    }
+
+    .img-right-video-content {
+        width: 620px;
+        height: 90%;
+        position: absolute;
+    }
+
+    .box-slice {
+        position: relative;
+        z-index: 2;
+        padding: 30% 5%;
+        border: 0px solid red;
+    }
+
+    .big-box-left {
+        background-color: transparent;
+    }
+
+    .box-slice-left {
+        border: 0px solid red;
+        height: 600px;
+        overflow: scroll;
+    }
+
+    .card-deck {
+        transition: .3s ease-in-out;
+    }
+
+    .card-deck:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+        color: orange;
+        border-radius: .5em;
+    }
+
+    .bg-section-900 {
+        /*background-image: url('/static/web/img/jpg/anstronot.jpg'); */
+        /*background-size: cover; 
+        background-image: linear-gradient(to left, rgba(0,0,0,1), rgb(7, 24, 53), rgba(0,0,0,1)); */
+        width: 100%;
+        height: auto;
+    }
+
+    .bg-section-900 > h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 100;
+        letter-spacing: .1em;
+        padding: 30px 0;
+    }
+
     /* Slider */
     .parallax-box-card * {
         font-family: 'Montserrat', sans-serif
     }
+
+    .parallax-box-card > .img-box-parallax {
+        width: 75px;
+        height: 75px;
+    }
+
+    .parallax-box-card > .title-parallax {
+        color: lightgreen !important;
+    }
+
+    .parallax-box-card > .description-parallax {
+        color : orange !important;
+        padding: 0 20px;
+        font-size: .9em;
+        font-weight: 100;
+    }
+
+    /* masonry gallery */
+    .img-masonry {
+        max-width: 100%;
+        display: block;
+      }
+      
+      figure {
+        margin: 0;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        margin-bottom: 10px;
+        break-inside: avoid;
+      }
+      
+      figure > .img-masonry {
+        grid-row: 1 / -1;
+        grid-column: 1;
+      }
+      
+      figure a {
+        color: black;
+        text-decoration: none;
+      }
+      
+      figcaption {
+        grid-row: 2;
+        grid-column: 1;
+        background-color: rgba(255,255,255,.5);
+        padding: .2em .5em;
+        justify-self: start;
+      }
+      
+      .box-container {
+        column-count: 4;
+        column-gap: 10px;
+      }
     
 }
     

@@ -1,0 +1,6 @@
+@media (min-weight: 1024px) {
+    body {
+        padding: 0;
+        background-color: lightgreen;
+    }
+}
