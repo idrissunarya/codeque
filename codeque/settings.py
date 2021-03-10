@@ -25,9 +25,22 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'apps.web',
+    'rest_framework',
+    'apps.api',
     'apps.dash',
+    'apps.web',
 ]
+
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+}
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -65,8 +78,12 @@ WSGI_APPLICATION = 'codeque.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'codeque',
+        'USER': 'admin',
+        'PASSWORD': 'SuperSecret',
+        'HOST': 'localhost',
+        'PORT': '',
     }
 }
 
@@ -111,5 +128,10 @@ STATIC_URL = '/static/'
 #STATIC_ROOT = '/Users/idris/vps/codeque/static'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static')
+]
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = [
+    os.path.join(BASE_DIR, 'media')
 ]
 

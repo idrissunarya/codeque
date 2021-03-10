@@ -2753,3 +2753,509 @@ spawned uWSGI worker 3 (pid: 2624, cores: 1)
 spawned uWSGI worker 4 (pid: 2625, cores: 1)
 spawned uWSGI worker 5 (pid: 2626, cores: 1)
 [pid: 2626|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 887 bytes} [Sun Mar  7 12:56:55 2021] GET / => generated 44641 bytes in 106 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+[pid: 2626|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 887 bytes} [Mon Mar  8 12:02:23 2021] GET / => generated 44641 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Mar  9 10:00:43 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8bd8505230
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8bd8505230 pid: 934 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 934)
+spawned uWSGI worker 1 (pid: 937, cores: 1)
+spawned uWSGI worker 2 (pid: 938, cores: 1)
+spawned uWSGI worker 3 (pid: 939, cores: 1)
+spawned uWSGI worker 4 (pid: 940, cores: 1)
+spawned uWSGI worker 5 (pid: 941, cores: 1)
+[pid: 941|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 641 bytes} [Tue Mar  9 10:00:47 2021] GET / => generated 45118 bytes in 108 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 941|app: 0|req: 2/2] 127.0.0.1 () {40 vars in 647 bytes} [Tue Mar  9 10:00:47 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 65 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+Not Found: /__/firebase/init.js
+[pid: 939|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 617 bytes} [Tue Mar  9 10:00:47 2021] GET /__/firebase/init.js => generated 2488 bytes in 143 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 940|app: 0|req: 1/4] 127.0.0.1 () {40 vars in 659 bytes} [Tue Mar  9 10:00:47 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 145 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon-precomposed.png
+[pid: 941|app: 0|req: 3/5] 127.0.0.1 () {38 vars in 548 bytes} [Tue Mar  9 10:00:50 2021] GET /apple-touch-icon-precomposed.png => generated 2527 bytes in 15 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /apple-touch-icon.png
+[pid: 940|app: 0|req: 2/6] 127.0.0.1 () {38 vars in 524 bytes} [Tue Mar  9 10:00:50 2021] GET /apple-touch-icon.png => generated 2491 bytes in 15 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 4/7] 127.0.0.1 () {48 vars in 863 bytes} [Tue Mar  9 10:01:06 2021] GET / => generated 45118 bytes in 31 msecs (HTTP/1.1 200) 5 headers in 168 bytes (4 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 941|app: 0|req: 5/8] 127.0.0.1 () {46 vars in 776 bytes} [Tue Mar  9 10:01:07 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 940|app: 0|req: 3/9] 127.0.0.1 () {46 vars in 788 bytes} [Tue Mar  9 10:01:07 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 941|app: 0|req: 6/10] 127.0.0.1 () {46 vars in 746 bytes} [Tue Mar  9 10:01:07 2021] GET /__/firebase/init.js => generated 2488 bytes in 11 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 941|app: 0|req: 7/11] 127.0.0.1 () {46 vars in 776 bytes} [Tue Mar  9 10:01:09 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 941|app: 0|req: 8/12] 127.0.0.1 () {46 vars in 788 bytes} [Tue Mar  9 10:01:09 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 940|app: 0|req: 4/13] 127.0.0.1 () {46 vars in 746 bytes} [Tue Mar  9 10:01:09 2021] GET /__/firebase/init.js => generated 2488 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 941|app: 0|req: 9/14] 127.0.0.1 () {50 vars in 894 bytes} [Tue Mar  9 10:01:16 2021] GET / => generated 45118 bytes in 16 msecs (HTTP/1.1 200) 5 headers in 168 bytes (2 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 940|app: 0|req: 5/15] 127.0.0.1 () {46 vars in 776 bytes} [Tue Mar  9 10:01:17 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 939|app: 0|req: 2/16] 127.0.0.1 () {46 vars in 788 bytes} [Tue Mar  9 10:01:17 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 940|app: 0|req: 6/17] 127.0.0.1 () {46 vars in 746 bytes} [Tue Mar  9 10:01:17 2021] GET /__/firebase/init.js => generated 2488 bytes in 11 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 941|app: 0|req: 10/18] 127.0.0.1 () {46 vars in 776 bytes} [Tue Mar  9 10:01:17 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 941|app: 0|req: 11/19] 127.0.0.1 () {46 vars in 788 bytes} [Tue Mar  9 10:01:17 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 940|app: 0|req: 7/20] 127.0.0.1 () {46 vars in 746 bytes} [Tue Mar  9 10:01:17 2021] GET /__/firebase/init.js => generated 2488 bytes in 8 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Mar  9 17:56:01 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7ffa4a404e80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ffa4a404e80 pid: 17103 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17103)
+spawned uWSGI worker 1 (pid: 17106, cores: 1)
+spawned uWSGI worker 2 (pid: 17107, cores: 1)
+spawned uWSGI worker 3 (pid: 17108, cores: 1)
+spawned uWSGI worker 4 (pid: 17109, cores: 1)
+spawned uWSGI worker 5 (pid: 17110, cores: 1)
+[pid: 17110|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 651 bytes} [Tue Mar  9 17:56:02 2021] GET /admin => generated 0 bytes in 24 msecs (HTTP/1.1 301) 5 headers in 175 bytes (1 switches on core 0)
+[pid: 17109|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 653 bytes} [Tue Mar  9 17:56:02 2021] GET /admin/ => generated 0 bytes in 69 msecs (HTTP/1.1 302) 9 headers in 331 bytes (1 switches on core 0)
+[pid: 17108|app: 0|req: 1/3] 127.0.0.1 () {40 vars in 690 bytes} [Tue Mar  9 17:56:03 2021] GET /admin/login/?next=/admin/ => generated 2198 bytes in 584 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 17110|app: 0|req: 2/4] 127.0.0.1 () {42 vars in 715 bytes} [Tue Mar  9 17:56:03 2021] GET /favicon.ico => generated 2464 bytes in 111 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 17110|app: 0|req: 3/5] 127.0.0.1 () {50 vars in 985 bytes} [Tue Mar  9 17:56:15 2021] POST /admin/login/?next=/admin/ => generated 2359 bytes in 602 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Mar  9 17:57:16 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7feb9a4097f0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7feb9a4097f0 pid: 17150 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17150)
+spawned uWSGI worker 1 (pid: 17153, cores: 1)
+spawned uWSGI worker 2 (pid: 17154, cores: 1)
+spawned uWSGI worker 3 (pid: 17155, cores: 1)
+spawned uWSGI worker 4 (pid: 17156, cores: 1)
+spawned uWSGI worker 5 (pid: 17157, cores: 1)
+[pid: 17157|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 985 bytes} [Tue Mar  9 17:57:20 2021] POST /admin/login/?next=/admin/ => generated 2359 bytes in 628 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 985 bytes} [Tue Mar  9 17:57:25 2021] POST /admin/login/?next=/admin/ => generated 0 bytes in 329 msecs (HTTP/1.1 302) 11 headers in 625 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 875 bytes} [Tue Mar  9 17:57:26 2021] GET /admin/ => generated 3310 bytes in 83 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 845 bytes} [Tue Mar  9 17:57:38 2021] GET /admin/auth/user/ => generated 7843 bytes in 116 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 17157|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 754 bytes} [Tue Mar  9 17:57:38 2021] GET /admin/jsi18n/ => generated 3187 bytes in 76 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 1003 bytes} [Tue Mar  9 17:58:07 2021] POST /admin/auth/user/ => generated 0 bytes in 27 msecs (HTTP/1.1 302) 10 headers in 491 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 7/7] 127.0.0.1 () {46 vars in 1010 bytes} [Tue Mar  9 17:58:07 2021] GET /admin/auth/user/ => generated 7968 bytes in 95 msecs (HTTP/1.1 200) 10 headers in 559 bytes (2 switches on core 0)
+[pid: 17157|app: 0|req: 8/8] 127.0.0.1 () {42 vars in 754 bytes} [Tue Mar  9 17:58:07 2021] GET /admin/jsi18n/ => generated 3187 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 9/9] 127.0.0.1 () {46 vars in 886 bytes} [Tue Mar  9 18:09:10 2021] GET /admin/auth/user/ => generated 7843 bytes in 111 msecs (HTTP/1.1 200) 9 headers in 461 bytes (2 switches on core 0)
+[pid: 17157|app: 0|req: 10/10] 127.0.0.1 () {42 vars in 754 bytes} [Tue Mar  9 18:09:11 2021] GET /admin/jsi18n/ => generated 3187 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17157|app: 0|req: 11/11] 127.0.0.1 () {44 vars in 835 bytes} [Tue Mar  9 18:09:14 2021] GET /admin/ => generated 3310 bytes in 50 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Mar  9 18:09:31 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7f8dbbd021d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7f8dbbd021d0 pid: 17317 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17317)
+spawned uWSGI worker 1 (pid: 17320, cores: 1)
+spawned uWSGI worker 2 (pid: 17321, cores: 1)
+spawned uWSGI worker 3 (pid: 17322, cores: 1)
+spawned uWSGI worker 4 (pid: 17323, cores: 1)
+spawned uWSGI worker 5 (pid: 17324, cores: 1)
+[pid: 17324|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 786 bytes} [Tue Mar  9 18:09:34 2021] GET /admin/ => generated 3310 bytes in 324 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 17324|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 786 bytes} [Tue Mar  9 18:20:44 2021] GET /admin/ => generated 3310 bytes in 52 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 17324|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 786 bytes} [Tue Mar  9 18:20:47 2021] GET /admin/ => generated 3310 bytes in 49 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 1 seconds
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Mar  9 18:21:09 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/servers
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fc51b40bd70
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc51b40bd70 pid: 17450 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17450)
+spawned uWSGI worker 1 (pid: 17453, cores: 1)
+spawned uWSGI worker 2 (pid: 17454, cores: 1)
+spawned uWSGI worker 3 (pid: 17455, cores: 1)
+spawned uWSGI worker 4 (pid: 17456, cores: 1)
+spawned uWSGI worker 5 (pid: 17457, cores: 1)
+[pid: 17457|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 786 bytes} [Tue Mar  9 18:21:11 2021] GET /admin/ => generated 3927 bytes in 332 msecs (HTTP/1.1 200) 8 headers in 293 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 843 bytes} [Tue Mar  9 18:21:34 2021] GET /admin/api/blog/ => generated 4873 bytes in 82 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 753 bytes} [Tue Mar  9 18:21:34 2021] GET /admin/jsi18n/ => generated 3187 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 860 bytes} [Tue Mar  9 18:21:37 2021] GET /admin/api/blog/add/ => generated 7486 bytes in 101 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 5/5] 127.0.0.1 () {42 vars in 757 bytes} [Tue Mar  9 18:21:37 2021] GET /admin/jsi18n/ => generated 3187 bytes in 39 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+Internal Server Error: /admin/api/blog/add/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1093, in save_model
+    obj.save()
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1291, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/fields/files.py", line 307, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 51, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 82, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 311, in exists
+    return os.path.exists(self.path(name))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 324, in path
+    return safe_join(self.location, name)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 214, in location
+    return os.path.abspath(self.base_location)
+  File "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/posixpath.py", line 374, in abspath
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+[pid: 17457|app: 0|req: 6/6] 127.0.0.1 () {50 vars in 1088 bytes} [Tue Mar  9 18:23:04 2021] POST /admin/api/blog/add/ => generated 191079 bytes in 357 msecs (HTTP/1.1 500) 6 headers in 187 bytes (113 switches on core 0)
+Internal Server Error: /admin/api/blog/add/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1093, in save_model
+    obj.save()
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1291, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/fields/files.py", line 307, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 51, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 82, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 311, in exists
+    return os.path.exists(self.path(name))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 324, in path
+    return safe_join(self.location, name)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 214, in location
+    return os.path.abspath(self.base_location)
+  File "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/posixpath.py", line 374, in abspath
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+[pid: 17457|app: 0|req: 7/7] 127.0.0.1 () {50 vars in 1088 bytes} [Tue Mar  9 18:24:07 2021] POST /admin/api/blog/add/ => generated 191079 bytes in 202 msecs (HTTP/1.1 500) 6 headers in 187 bytes (106 switches on core 0)
+[pid: 17457|app: 0|req: 8/8] 127.0.0.1 () {44 vars in 860 bytes} [Tue Mar  9 18:26:24 2021] GET /admin/api/blog/add/ => generated 7486 bytes in 79 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 9/9] 127.0.0.1 () {44 vars in 856 bytes} [Tue Mar  9 18:26:27 2021] GET /admin/api/blog/ => generated 4873 bytes in 79 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 10/10] 127.0.0.1 () {42 vars in 753 bytes} [Tue Mar  9 18:26:27 2021] GET /admin/jsi18n/ => generated 3187 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 11/11] 127.0.0.1 () {44 vars in 860 bytes} [Tue Mar  9 18:26:29 2021] GET /admin/api/blog/add/ => generated 7486 bytes in 84 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 12/12] 127.0.0.1 () {42 vars in 757 bytes} [Tue Mar  9 18:26:29 2021] GET /admin/jsi18n/ => generated 3187 bytes in 21 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 13/13] 127.0.0.1 () {50 vars in 1082 bytes} [Tue Mar  9 18:26:35 2021] POST /admin/api/blog/add/ => generated 0 bytes in 34 msecs (HTTP/1.1 302) 10 headers in 603 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 14/14] 127.0.0.1 () {46 vars in 1124 bytes} [Tue Mar  9 18:26:35 2021] GET /admin/api/blog/ => generated 7530 bytes in 90 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 17456|app: 0|req: 1/15] 127.0.0.1 () {42 vars in 753 bytes} [Tue Mar  9 18:26:35 2021] GET /admin/jsi18n/ => generated 3187 bytes in 73 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 15/16] 127.0.0.1 () {50 vars in 1000 bytes} [Tue Mar  9 18:26:45 2021] POST /admin/api/blog/ => generated 5033 bytes in 72 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 16/17] 127.0.0.1 () {50 vars in 1000 bytes} [Tue Mar  9 18:26:46 2021] POST /admin/api/blog/ => generated 0 bytes in 34 msecs (HTTP/1.1 302) 10 headers in 499 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 17/18] 127.0.0.1 () {46 vars in 1016 bytes} [Tue Mar  9 18:26:46 2021] GET /admin/api/blog/ => generated 5007 bytes in 72 msecs (HTTP/1.1 200) 10 headers in 559 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 18/19] 127.0.0.1 () {42 vars in 753 bytes} [Tue Mar  9 18:26:46 2021] GET /admin/jsi18n/ => generated 3187 bytes in 23 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17456|app: 0|req: 2/20] 127.0.0.1 () {42 vars in 757 bytes} [Tue Mar  9 18:26:49 2021] GET /admin/jsi18n/ => generated 3187 bytes in 22 msecs (HTTP/1.1 200) 6 headers in 189 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 19/21] 127.0.0.1 () {44 vars in 860 bytes} [Tue Mar  9 18:26:49 2021] GET /admin/api/blog/add/ => generated 7486 bytes in 91 msecs (HTTP/1.1 200) 9 headers in 461 bytes (1 switches on core 0)
+Internal Server Error: /admin/api/blog/add/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 614, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/views/decorators/cache.py", line 44, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/sites.py", line 233, in inner
+    return view(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1653, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 43, in _wrapper
+    return bound_method(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/decorators.py", line 130, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1534, in changeform_view
+    return self._changeform_view(request, object_id, form_url, extra_context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1580, in _changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/contrib/admin/options.py", line 1093, in save_model
+    obj.save()
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 790, in save_base
+    updated = self._save_table(
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/base.py", line 933, in _do_insert
+    return manager._insert(
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1396, in execute_sql
+    for sql, params in self.as_sql():
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1339, in as_sql
+    value_rows = [
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1340, in <listcomp>
+    [self.prepare_value(field, self.pre_save_val(field, obj)) for field in fields]
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/sql/compiler.py", line 1291, in pre_save_val
+    return field.pre_save(obj, add=True)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/fields/files.py", line 307, in pre_save
+    file.save(file.name, file.file, save=False)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/db/models/fields/files.py", line 87, in save
+    self.name = self.storage.save(name, content, max_length=self.field.max_length)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 51, in save
+    name = self.get_available_name(name, max_length=max_length)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 82, in get_available_name
+    while self.exists(name) or (max_length and len(name) > max_length):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 311, in exists
+    return os.path.exists(self.path(name))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 324, in path
+    return safe_join(self.location, name)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/utils/functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/files/storage.py", line 214, in location
+    return os.path.abspath(self.base_location)
+  File "/usr/local/opt/python@3.9/Frameworks/Python.framework/Versions/3.9/lib/python3.9/posixpath.py", line 374, in abspath
+    path = os.fspath(path)
+TypeError: expected str, bytes or os.PathLike object, not list
+[pid: 17457|app: 0|req: 20/22] 127.0.0.1 () {50 vars in 1088 bytes} [Tue Mar  9 18:28:03 2021] POST /admin/api/blog/add/ => generated 190725 bytes in 181 msecs (HTTP/1.1 500) 6 headers in 187 bytes (47 switches on core 0)
+[pid: 17457|app: 0|req: 21/23] 127.0.0.1 () {42 vars in 774 bytes} [Tue Mar  9 21:27:39 2021] GET / => generated 45118 bytes in 39 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 17456|app: 0|req: 3/24] 127.0.0.1 () {42 vars in 780 bytes} [Tue Mar  9 21:27:39 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 153 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 17454|app: 0|req: 1/25] 127.0.0.1 () {42 vars in 792 bytes} [Tue Mar  9 21:27:39 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 98 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 17455|app: 0|req: 1/26] 127.0.0.1 () {42 vars in 750 bytes} [Tue Mar  9 21:27:39 2021] GET /__/firebase/init.js => generated 2488 bytes in 182 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 17457|app: 0|req: 22/27] 127.0.0.1 () {50 vars in 887 bytes} [Wed Mar 10 10:39:55 2021] GET / => generated 45118 bytes in 29 msecs (HTTP/1.1 200) 5 headers in 168 bytes (7 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 17457|app: 0|req: 23/28] 127.0.0.1 () {48 vars in 845 bytes} [Wed Mar 10 10:39:56 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2533 bytes in 18 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 17456|app: 0|req: 4/29] 127.0.0.1 () {48 vars in 857 bytes} [Wed Mar 10 10:39:56 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2551 bytes in 20 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 17455|app: 0|req: 2/30] 127.0.0.1 () {48 vars in 815 bytes} [Wed Mar 10 10:39:56 2021] GET /__/firebase/init.js => generated 2488 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
