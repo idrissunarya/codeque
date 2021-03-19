@@ -1,0 +1,26 @@
+{% extends '../../../base.html' %}
+{% load static %}
+
+{% block title %}
+    explore
+{% endblock title %}
+
+{% block body %}
+
+    <div class="uk-container">
+        <p>List Python Learn</p>
+       {% for obj in queryset %}
+           <ul>
+               <li>
+                   <p>Title Blog : 
+                    <a href="{{ obj.blog_id }}">{{ obj.blog.title }}</a>
+                   </p>
+                   <p> Categori : {{ obj.name }}</p>
+                   <p> blog_id : {{ obj.blog_id }}</p>
+                   <hr>
+               </li>
+           </ul>
+       {% endfor %}
+    </div>
+
+{% endblock body %}

@@ -1,0 +1,7 @@
+<h1>Articles</h1>
+{% for obj in queryset %}
+  <ul>
+    <li><a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a></li>
+    <p>{{ obj.article_id }}</p>
+  </ul>
+{% endfor %}

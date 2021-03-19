@@ -1,0 +1,465 @@
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sat Mar 13 18:28:49 2021] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.42.1) on 03 January 2021 14:28:17
+os: Darwin-15.6.0 Darwin Kernel Version 15.6.0: Thu Jun 21 20:07:40 PDT 2018; root:xnu-3248.73.11~1/RELEASE_X86_64
+nodename: idriss-MacBook-Pro.local
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /Users/idris/vps/codeque/codeque
+writing pidfile to /Users/idris/vps/codeque/codeque/codeque.pid
+detected binary path: /Users/idris/vps/.codeque/bin/uwsgi
+chdir() to /Users/idris/vps/codeque
+your processes number limit is 709
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /Users/idris/vps/codeque/codeque/codeque.sock fd 3
+Python version: 3.9.0 (default, Dec  8 2020, 10:06:14)  [Clang 8.0.0 (clang-800.0.42.1)]
+PEP 405 virtualenv detected: /Users/idris/vps/.codeque
+Set PythonHome to /Users/idris/vps/.codeque
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x7fbca1c0c480
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 437376 bytes (427 KB) for 5 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fbca1c0c480 pid: 30264 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 30264)
+spawned uWSGI worker 1 (pid: 30267, cores: 1)
+spawned uWSGI worker 2 (pid: 30268, cores: 1)
+spawned uWSGI worker 3 (pid: 30269, cores: 1)
+spawned uWSGI worker 4 (pid: 30270, cores: 1)
+spawned uWSGI worker 5 (pid: 30271, cores: 1)
+[pid: 30271|app: 0|req: 1/1] 127.0.0.1 () {52 vars in 1027 bytes} [Sat Mar 13 18:28:51 2021] GET / => generated 45118 bytes in 926 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 2/2] 127.0.0.1 () {48 vars in 909 bytes} [Sat Mar 13 18:28:53 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 21 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 3/3] 127.0.0.1 () {48 vars in 909 bytes} [Sat Mar 13 18:28:54 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 14 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30270|app: 0|req: 1/4] 127.0.0.1 () {48 vars in 921 bytes} [Sat Mar 13 18:28:53 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 1176 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30269|app: 0|req: 1/5] 127.0.0.1 () {48 vars in 879 bytes} [Sat Mar 13 18:28:53 2021] GET /__/firebase/init.js => generated 2897 bytes in 1037 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30271|app: 0|req: 4/6] 127.0.0.1 () {50 vars in 1026 bytes} [Sat Mar 13 18:33:35 2021] GET /explore/python/ => generated 2291 bytes in 47 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30269|app: 0|req: 2/7] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 18:33:35 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 60 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30270|app: 0|req: 2/8] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 18:33:35 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 63 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 5/9] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 18:33:36 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 12 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30270|app: 0|req: 3/10] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 18:33:36 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 12 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30268|app: 0|req: 1/11] 127.0.0.1 () {48 vars in 894 bytes} [Sat Mar 13 18:33:35 2021] GET /__/firebase/init.js => generated 2897 bytes in 1145 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30271|app: 0|req: 6/12] 127.0.0.1 () {50 vars in 996 bytes} [Sat Mar 13 18:33:49 2021] GET / => generated 45118 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30270|app: 0|req: 4/13] 127.0.0.1 () {48 vars in 909 bytes} [Sat Mar 13 18:33:49 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 14 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30269|app: 0|req: 3/14] 127.0.0.1 () {48 vars in 921 bytes} [Sat Mar 13 18:33:49 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 26 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30268|app: 0|req: 2/15] 127.0.0.1 () {48 vars in 879 bytes} [Sat Mar 13 18:33:49 2021] GET /__/firebase/init.js => generated 2897 bytes in 20 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 7/16] 127.0.0.1 () {48 vars in 909 bytes} [Sat Mar 13 18:33:49 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 15 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30271|app: 0|req: 8/17] 127.0.0.1 () {48 vars in 921 bytes} [Sat Mar 13 18:33:50 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 12 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30271|app: 0|req: 9/18] 127.0.0.1 () {48 vars in 879 bytes} [Sat Mar 13 18:33:50 2021] GET /__/firebase/init.js => generated 2897 bytes in 19 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Internal Server Error: /
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./apps/web/views.py", line 12, in home
+    return render(request, 'web/index.html')
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 192, in render
+    return template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 172, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/defaulttags.py", line 446, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'python_list' not found. 'python_list' is not a valid view function or pattern name.
+[pid: 30271|app: 0|req: 10/19] 127.0.0.1 () {52 vars in 1027 bytes} [Sat Mar 13 18:34:59 2021] GET / => generated 185050 bytes in 638 msecs (HTTP/1.1 500) 6 headers in 187 bytes (1 switches on core 0)
+Not Found: /detail/
+[pid: 30271|app: 0|req: 11/20] 127.0.0.1 () {52 vars in 1041 bytes} [Sat Mar 13 18:36:16 2021] GET /detail/ => generated 2861 bytes in 15 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /detail/
+[pid: 30271|app: 0|req: 12/21] 127.0.0.1 () {52 vars in 1041 bytes} [Sat Mar 13 18:36:18 2021] GET /detail/ => generated 2861 bytes in 15 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /detail/
+[pid: 30271|app: 0|req: 13/22] 127.0.0.1 () {52 vars in 1041 bytes} [Sat Mar 13 18:36:35 2021] GET /detail/ => generated 2861 bytes in 11 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30271|app: 0|req: 14/23] 127.0.0.1 () {50 vars in 996 bytes} [Sat Mar 13 18:36:45 2021] GET / => generated 45133 bytes in 30 msecs (HTTP/1.1 200) 5 headers in 168 bytes (3 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30270|app: 0|req: 5/24] 127.0.0.1 () {48 vars in 909 bytes} [Sat Mar 13 18:36:46 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 12 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30269|app: 0|req: 4/25] 127.0.0.1 () {48 vars in 921 bytes} [Sat Mar 13 18:36:46 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 15 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30268|app: 0|req: 3/26] 127.0.0.1 () {48 vars in 879 bytes} [Sat Mar 13 18:36:46 2021] GET /__/firebase/init.js => generated 2897 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30271|app: 0|req: 15/27] 127.0.0.1 () {52 vars in 1066 bytes} [Sat Mar 13 18:36:50 2021] GET /explore/python/ => generated 2291 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 16/28] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 18:36:50 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 12 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30270|app: 0|req: 6/29] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 18:36:50 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30271|app: 0|req: 17/30] 127.0.0.1 () {48 vars in 894 bytes} [Sat Mar 13 18:36:50 2021] GET /__/firebase/init.js => generated 2897 bytes in 18 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30271|app: 0|req: 18/31] 127.0.0.1 () {52 vars in 1066 bytes} [Sat Mar 13 20:58:59 2021] GET /explore/python/ => generated 2291 bytes in 24 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 19/32] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 20:59:00 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 26 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30270|app: 0|req: 7/33] 127.0.0.1 () {48 vars in 894 bytes} [Sat Mar 13 20:59:00 2021] GET /__/firebase/init.js => generated 2897 bytes in 21 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30271|app: 0|req: 20/34] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 20:59:00 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 41 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 21/35] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 20:59:00 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 20 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+[pid: 30270|app: 0|req: 8/36] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 20:59:00 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 16 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/init.js
+[pid: 30269|app: 0|req: 5/37] 127.0.0.1 () {48 vars in 894 bytes} [Sat Mar 13 20:59:00 2021] GET /__/firebase/init.js => generated 2897 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30271|app: 0|req: 22/38] 127.0.0.1 () {54 vars in 1097 bytes} [Sat Mar 13 21:11:03 2021] GET /explore/python/ => generated 2291 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 167 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+Not Found: /__/firebase/init.js
+[pid: 30268|app: 0|req: 4/41] 127.0.0.1 () {48 vars in 894 bytes} [Sat Mar 13 21:11:03 2021] GET /__/firebase/init.js => generated 2897 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30269|app: 0|req: 6/41] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 21:11:03 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30270|app: 0|req: 9/41] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 21:11:03 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 23/42] 127.0.0.1 () {48 vars in 924 bytes} [Sat Mar 13 21:11:04 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 11 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-analytics.js
+Not Found: /__/firebase/init.js
+[pid: 30270|app: 0|req: 10/44] 127.0.0.1 () {48 vars in 936 bytes} [Sat Mar 13 21:11:04 2021] GET /__/firebase/8.2.10/firebase-analytics.js => generated 2960 bytes in 10 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+[pid: 30269|app: 0|req: 7/44] 127.0.0.1 () {48 vars in 894 bytes} [Sat Mar 13 21:11:04 2021] GET /__/firebase/init.js => generated 2897 bytes in 13 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Internal Server Error: /explore/python/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./apps/web/views.py", line 23, in python_list
+    return render(request,  'web/pages/navcat/navPage.html', context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "./apps/api/models.py", line 22, in get_absolute_url
+    return reverse('web/pages/navcat/blog_detail', kwargs={'slug': self.slug})
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'web/pages/navcat/blog_detail' not found. 'web/pages/navcat/blog_detail' is not a valid view function or pattern name.
+[pid: 30271|app: 0|req: 24/45] 127.0.0.1 () {54 vars in 1097 bytes} [Sat Mar 13 21:11:31 2021] GET /explore/python/ => generated 161802 bytes in 282 msecs (HTTP/1.1 500) 6 headers in 187 bytes (2 switches on core 0)
+Internal Server Error: /explore/python/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./apps/web/views.py", line 23, in python_list
+    return render(request,  'web/pages/navcat/navPage.html', context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "./apps/api/models.py", line 22, in get_absolute_url
+    return reverse('blog_detail', kwargs={'slug': self.slug})
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'web/pages/navcat/blog_detail' not found. 'web/pages/navcat/blog_detail' is not a valid view function or pattern name.
+[pid: 30271|app: 0|req: 25/46] 127.0.0.1 () {54 vars in 1097 bytes} [Sat Mar 13 21:12:16 2021] GET /explore/python/ => generated 161768 bytes in 199 msecs (HTTP/1.1 500) 6 headers in 187 bytes (3 switches on core 0)
+Not Found: /__/firebase/8.2.10/firebase-app.js
+[pid: 30271|app: 0|req: 26/47] 127.0.0.1 () {48 vars in 909 bytes} [Sat Mar 13 21:12:18 2021] GET /__/firebase/8.2.10/firebase-app.js => generated 2942 bytes in 9 msecs (HTTP/1.1 404) 5 headers in 159 bytes (1 switches on core 0)
+Internal Server Error: /explore/python/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./apps/web/views.py", line 23, in python_list
+    return render(request,  'web/pages/navcat/navPage.html', context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "./apps/api/models.py", line 22, in get_absolute_url
+    return reverse('blog_detail', kwargs={'slug': self.slug})
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'web/pages/navcat/blog_detail' not found. 'web/pages/navcat/blog_detail' is not a valid view function or pattern name.
+[pid: 30271|app: 0|req: 27/48] 127.0.0.1 () {52 vars in 1066 bytes} [Sat Mar 13 21:12:24 2021] GET /explore/python/ => generated 161631 bytes in 285 msecs (HTTP/1.1 500) 6 headers in 187 bytes (3 switches on core 0)
+Internal Server Error: /explore/python/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./apps/web/views.py", line 23, in python_list
+    return render(request,  'web/pages/navcat/navPage.html', context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "./apps/api/models.py", line 22, in get_absolute_url
+    return reverse('blog_detail', kwargs={'slug': self.slug})
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'web/pages/navcat/blog_detail' not found. 'web/pages/navcat/blog_detail' is not a valid view function or pattern name.
+[pid: 30271|app: 0|req: 28/49] 127.0.0.1 () {54 vars in 1097 bytes} [Sat Mar 13 21:12:48 2021] GET /explore/python/ => generated 161768 bytes in 158 msecs (HTTP/1.1 500) 6 headers in 187 bytes (20 switches on core 0)
+Internal Server Error: /explore/python/
+Traceback (most recent call last):
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./apps/web/views.py", line 23, in python_list
+    #    return render(request,  'web/pages/navcat/navPage.html', context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 170, in render
+    return self._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 150, in render
+    return compiled_parent._render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 162, in _render
+    return self.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/loader_tags.py", line 62, in render
+    result = block.nodelist.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 938, in render
+    bit = node.render_annotated(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/defaulttags.py", line 211, in render
+    nodelist.append(node.render_annotated(context))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 905, in render_annotated
+    return self.render(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 988, in render
+    output = self.filter_expression.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 671, in resolve
+    obj = self.var.resolve(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 796, in resolve
+    value = self._resolve_lookup(context)
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/template/base.py", line 858, in _resolve_lookup
+    current = current()
+  File "./apps/api/models.py", line 22, in get_absolute_url
+    return reverse('blog_detail', kwargs={'slug': self.slug})
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/base.py", line 87, in reverse
+    return iri_to_uri(resolver._reverse_with_prefix(view, prefix, *args, **kwargs))
+  File "/Users/idris/vps/.codeque/lib/python3.9/site-packages/django/urls/resolvers.py", line 685, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'web/pages/navcat/blog_detail' not found. 'web/pages/navcat/blog_detail' is not a valid view function or pattern name.
+[pid: 30271|app: 0|req: 29/50] 127.0.0.1 () {54 vars in 1097 bytes} [Sat Mar 13 21:13:10 2021] GET /explore/python/ => generated 161777 bytes in 297 msecs (HTTP/1.1 500) 6 headers in 187 bytes (3 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 5 buried after 2 seconds
+worker 4 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 1 buried after 2 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket /Users/idris/vps/codeque/codeque/codeque.sock removed.
