@@ -1,0 +1,50 @@
+{% load static %}
+
+<div uk-grid>
+
+    <div class="uk-width-1-1@m">
+        <img src="{% static 'web/img/covers/hexagonal.jpeg' %}" alt="" style="height: 220px!important; width: max-content; position: absolute; z-index: -1; background-size: cover; opacity: none;">
+    </div>
+    
+    <div class="uk-width-1-2@m">
+        <div>
+            <ul class="uk-breadcrumb uk-margin-left uk-margin-top">
+                <li>
+                    <a href="{% url 'home' %}" class="uk-text-success uk-text-light">home</a>
+                </li>
+                <li>
+                    <a href="" class="uk-text-success uk-text-light uk-disabled">explore</a>
+                </li>
+                <li>
+                    <a href="/explore/{{ text }}/" class="uk-text-success uk-text-light">{{ text }}</a>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="uk-margin-left uk-margin-remove-top uk-text-light uk-text-success" style="text-transform: capitalize; letter-spacing: .4vh; font-weight: 100; font-size: 42px;">{{ text }} Science
+                {% for obj in wiki_info %}
+                <span class="uk-text-warning" uk-icon="icon:info" uk-tooltip="title: {{ obj.content }}; pos: right"></span>
+                {% endfor %}
+                <br>
+                
+                <span class="uk-label uk-label-success" style="text-transform: capitalize; font-size: 12px;">{{ total_post }} Posts</span>
+            </h3>
+            
+        </div>
+
+    </div>
+
+    <div class="uk-width-1-2@m">
+        <p></p>
+    </div>
+
+    
+
+</div>
+
+
+
+
+
+    

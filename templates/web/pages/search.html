@@ -1,0 +1,54 @@
+{% extends '../../base.html' %}
+{% load static %}
+
+{% block title %}
+    Mode Pencarian...
+{% endblock title %}
+
+{% block extra-stylesheets %}
+    <link rel="stylesheet" href="{% static 'web/css/explore.css' %}">
+{% endblock extra-stylesheets %}
+
+{% block body %}
+
+    {% block navbar %}
+        {% include 'web/pages/navcat/partials/navbar.html' %}
+    {% endblock navbar %}
+
+    <div class="uk-container uk-container-small">
+        <div class="uk-margin-large-top">
+            <h3>Hasil Pencarian : </h3>
+            <div class="uk-child-width-expand@m" uk-grid>
+                <div>
+                    {% if queue_1 or queue_2 %}
+                    <div class="uk-card uk-card-default uk-card body">
+                        {% for obj in queue_1 %}
+                            <a href="../{{ obj.blog.slug }}">
+                                <h4 style="color:rgb(41, 168, 126);">{{ forloop.counter }}. {{ obj.blog.title }}</h4>
+                            </a>
+                            <p>{{ obj.blog.description }}</p>
+                            <hr>
+                        {% endfor %}
+
+                        {% for obj in queue_2 %}
+                            <h4>{{ forloop.counter }}. {{ obj.blog.title }}</h4>
+                            <p>{{ obj.blog.description }}</p>
+                            <hr>
+                        {% endfor %}
+                    </div>
+                    {% else %}
+                        <p>Data <b style="color: red;">{{ query_search }}</b> not found</p>
+                    {% endif%}
+                </div>
+            </div>
+            
+                
+
+                
+            
+            
+
+
+        </div>
+    </div>
+{% endblock body %}

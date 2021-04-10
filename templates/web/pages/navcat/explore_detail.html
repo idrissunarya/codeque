@@ -1,0 +1,60 @@
+{% extends '../../../base.html' %}
+{% load static %}
+
+{% block title %}
+    {% for obj in queryset %}
+        exp - {{ obj.title }} 
+    {% endfor %}
+{% endblock title %}
+
+{% block extra-stylesheets %}
+    <style>
+        .btn-light-green {
+            background-color: rgb(41, 168, 126);
+            color: white;
+        }
+
+        .btn-light-grey {
+            background-color: whitesmoke;
+            color: black;
+            border-radius: 5px;
+            font-weight: 100;
+        }
+
+        .btn-light-grey:hover {
+            background-color: burlywood;
+        }
+
+        .btn-light-green-outline {
+            color: rgb(41, 168, 126);
+            border: 1px solid rgb(41, 168, 126);
+            background-color: transparent;
+            border-radius: 5px;
+        }
+
+        .btn-light-green-outline:hover {
+            color: white;
+            border: 1px solid white;
+            background-color: rgb(41, 168, 126);
+        }
+    </style>
+{% endblock extra-stylesheets %}
+
+{% block body %}
+
+    {% block navbar %}
+        {% include 'web/pages/navcat/partials/navbar.html' %}
+    {% endblock navbar %}
+
+    <div class="uk-container uk-container-small">
+        <div class="uk-margin-large-top">
+        {% for obj in queryset %}
+        <img src="/media/{{ obj.image }}" style="width: 75%; height: 350px; margin-left: auto; margin-right: auto; display: block; ">
+            <p>Title : {{ obj.title }}</p>
+            <p>slug : {{ obj.slug }}</p>
+            <p>content : {{ obj.content }}</p>
+        {% endfor %}
+        </div>
+    </div>
+{% endblock body %}
+

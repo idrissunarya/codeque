@@ -1,0 +1,83 @@
+{% load static %}
+
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar="dropbar: true;">
+        <div class="uk-navbar-left">
+
+            <a class="uk-navbar-item uk-logo" href="{% url 'home' %}">Codeque</a>
+
+            <div class="uk-button-group uk-button-small">
+                <button class="uk-button btn-light-green uk-button-small" style="text-transform: none; letter-spacing: .2vh; font-size: smaller;" >Explore</button>
+                <div class="uk-inline">
+                    <button class="uk-button uk-button-default uk-button-small" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                    <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true;">
+                        <ul class="uk-nav uk-dropdown-nav">
+                            <li>Categories</li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="{% url 'explore_python_list' %}">Python</a></li>
+                            <li><a href="#">Ruby</a></li>
+                            <li><a href="#">Javascript</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="{% url 'explore_nginx_list' %}">Nginx</a></li>
+                            <li><a href="#">Gunicorn</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Postgresql</a></li>
+                            <li><a href="#">Mysql</a></li>
+                            <li><a href="#">MongoDB</a></li>
+                            <li class="uk-nav-divider"></li>
+                            <li><a href="#">Ubuntu</a></li>
+                            <li><a href="#">Centos</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-right uk-text-success" uk-icon="icon: play-circle"></span>
+                        Videos
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-right uk-text-success" uk-icon="icon: users"></span>
+                        For Community
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="uk-icon uk-margin-small-right uk-text-success" uk-icon="icon: nut"></span>
+                        Modules
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+
+        <div class="uk-navbar-right">
+
+            <div class="uk-navbar-item">
+                <form action="{% url 'search_python' %}" class="uk-search uk-search-default" method="GET">
+                    <a href="" class="uk-search-icon-flip uk-disabled" uk-search-icon></a>
+                    <input type="text" class="uk-input uk-form-small" placeholder="Search.." name="q">
+                    <!--<button class="uk-button uk-button-default uk-button-small" type="submit">Cari</button>-->
+                </form>
+            </div>
+
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="{% url 'login' %}" class="uk-text-light" style="text-transform: none; letter-spacing: .2vh; font-size: smaller;">
+                        <span class="uk-icon uk-margin-small-right uk-text-success" uk-icon="icon: sign-in"></span>
+                        Login
+                    </a>
+                </li>
+                <li><a href="#">
+                    <button type="button" class="uk-button btn-light-green-outline uk-button-small" style="text-transform: none; letter-spacing: .2vh; font-size: smaller;">Join For Free</button>
+                </a></li>
+            </ul>
+
+        </div>
+    </nav>
+</div>
